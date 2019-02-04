@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <parameter name="Suite-Name" value="LT_1.1.72--SMOKE_P1"/>
+  <test name="Default test(failed)">
+    <classes>
+      <class name="in.v2solutions.hybrid.testcases.LT_13_Verify_OffersViaSPS_CRAsExcellentAndSecondMortgageAsYes">
+        <methods>
+          <include name="afterTest"/>
+          <include name="beforeTest"/>
+          <include name="verify_OffersViaSPS_CRAsExcellentAndSecondMortgageAsYes" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- in.v2solutions.hybrid.testcases.LT_13_Verify_OffersViaSPS_CRAsExcellentAndSecondMortgageAsYes -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

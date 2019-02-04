@@ -1,0 +1,434 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Regression]">
+  <parameter name="Suite-Name" value="HULFT_bulid5667--All_Regression"/>
+  <test name="HLT_00_Verify_TestData(failed)">
+    <classes>
+      <class name="in.v2solutions.hybrid.testcases.HLT_00_Verify_TestData">
+        <methods>
+          <include name="verify_TestData" invocation-numbers="0"/>
+          <include name="afterTest"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- in.v2solutions.hybrid.testcases.HLT_00_Verify_TestData -->
+    </classes>
+  </test> <!-- HLT_00_Verify_TestData(failed) -->
+  <test name="HLT_01_Verify_AddViewEditSearchAndDeleteFunctionalitiesForNewUser(failed)">
+    <classes>
+      <class name="in.v2solutions.hybrid.testcases.HLT_01_Verify_AddViewEditSearchAndDeleteFunctionalitiesForNewUser">
+        <methods>
+          <include name="verify_AddViewEditSearchAndDeleteFunctionalitiesForNewUser" invocation-numbers="0"/>
+          <include name="beforeTest"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- in.v2solutions.hybrid.testcases.HLT_01_Verify_AddViewEditSearchAndDeleteFunctionalitiesForNewUser -->
+    </classes>
+  </test> <!-- HLT_01_Verify_AddViewEditSearchAndDeleteFunctionalitiesForNewUser(failed) -->
+  <test name="HLT_02_Verify_AddViewEditSearchAndDeleteFunctionalitiesForCredentials(failed)">
+    <classes>
+      <class name="in.v2solutions.hybrid.testcases.HLT_02_Verify_AddViewEditSearchAndDeleteFunctionalitiesForCredentials">
+        <methods>
+          <include name="verify_AddViewEditSearchAndDeleteFunctionalitiesForCredentials" invocation-numbers="0"/>
+          <include name="beforeTest"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- in.v2solutions.hybrid.testcases.HLT_02_Verify_AddViewEditSearchAndDeleteFunctionalitiesForCredentials -->
+    </classes>
+  </test> <!-- HLT_02_Verify_AddViewEditSearchAndDeleteFunctionalitiesForCredentials(failed) -->
+  <test name="HLT_03_Verify_AddViewEditSearchAndDeleteFunctionalitiesForUserGroups(failed)">
+    <classes>
+      <class name="in.v2solutions.hybrid.testcases.HLT_03_Verify_AddViewEditSearchAndDeleteFunctionalitiesForUserGroups">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="verify_AddViewEditSearchAndDeleteFunctionalitiesForUserGroups" invocation-numbers="0"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- in.v2solutions.hybrid.testcases.HLT_03_Verify_AddViewEditSearchAndDeleteFunctionalitiesForUserGroups -->
+    </classes>
+  </test> <!-- HLT_03_Verify_AddViewEditSearchAndDeleteFunctionalitiesForUserGroups(failed) -->
+  <test name="HLT_04_Verify_HostActionsFunctionality(failed)">
+    <classes>
+      <class name="in.v2solutions.hybrid.testcases.HLT_04_Verify_HostActionsFunctionality">
+        <methods>
+          <include name="verify_HostActionsFunctionality" invocation-numbers="0"/>
+          <include name="beforeTest"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- in.v2solutions.hybrid.testcases.HLT_04_Verify_HostActionsFunctionality -->
+    </classes>
+  </test> <!-- HLT_04_Verify_HostActionsFunctionality(failed) -->
+  <test name="HLT_05_Verify_AddViewEditSearchExportAndDeleteFunctionalitiesForTransferReports(failed)">
+    <classes>
+      <class name="in.v2solutions.hybrid.testcases.HLT_05_Verify_AddViewEditSearchExportAndDeleteFunctionalitiesForTransferReports">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="afterTest"/>
+          <include name="verify_AddViewEditSearchExportAndDeleteFunctionalitiesForTransferReports" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- in.v2solutions.hybrid.testcases.HLT_05_Verify_AddViewEditSearchExportAndDeleteFunctionalitiesForTransferReports -->
+    </classes>
+  </test> <!-- HLT_05_Verify_AddViewEditSearchExportAndDeleteFunctionalitiesForTransferReports(failed) -->
+  <test name="HLT_06_Verify_AddViewEditSearchAndDeleteFunctionalitiesForHostReports(failed)">
+    <classes>
+      <class name="in.v2solutions.hybrid.testcases.HLT_06_Verify_AddViewEditSearchAndDeleteFunctionalitiesForHostReports">
+        <methods>
+          <include name="verify_AddViewEditSearchAndDeleteFunctionalitiesForHostReports" invocation-numbers="0"/>
+          <include name="afterTest"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- in.v2solutions.hybrid.testcases.HLT_06_Verify_AddViewEditSearchAndDeleteFunctionalitiesForHostReports -->
+    </classes>
+  </test> <!-- HLT_06_Verify_AddViewEditSearchAndDeleteFunctionalitiesForHostReports(failed) -->
+  <test name="HLT_07_Verify_AddViewEditSearchAndDeleteFunctionalitiesForSystemStatusReports(failed)">
+    <classes>
+      <class name="in.v2solutions.hybrid.testcases.HLT_07_Verify_AddViewEditSearchAndDeleteFunctionalitiesForSystemStatusReports">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="afterTest"/>
+          <include name="verify_AddViewEditSearchAndDeleteFunctionalitiesForSystemStatusReports" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- in.v2solutions.hybrid.testcases.HLT_07_Verify_AddViewEditSearchAndDeleteFunctionalitiesForSystemStatusReports -->
+    </classes>
+  </test> <!-- HLT_07_Verify_AddViewEditSearchAndDeleteFunctionalitiesForSystemStatusReports(failed) -->
+  <test name="HLT_08_Verify_AddViewEditSearchAndDeleteFunctionalitiesForUserReports(failed)">
+    <classes>
+      <class name="in.v2solutions.hybrid.testcases.HLT_08_Verify_AddViewEditSearchAndDeleteFunctionalitiesForUserReports">
+        <methods>
+          <include name="afterTest"/>
+          <include name="verify_AddViewEditSearchAndDeleteFunctionalitiesForUserReports" invocation-numbers="0"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- in.v2solutions.hybrid.testcases.HLT_08_Verify_AddViewEditSearchAndDeleteFunctionalitiesForUserReports -->
+    </classes>
+  </test> <!-- HLT_08_Verify_AddViewEditSearchAndDeleteFunctionalitiesForUserReports(failed) -->
+  <test name="HLT_11_Verify_ManageTransferActions(failed)">
+    <classes>
+      <class name="in.v2solutions.hybrid.testcases.HLT_11_Verify_ManageTransferActions">
+        <methods>
+          <include name="verify_ManageTransferActions" invocation-numbers="0"/>
+          <include name="beforeTest"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- in.v2solutions.hybrid.testcases.HLT_11_Verify_ManageTransferActions -->
+    </classes>
+  </test> <!-- HLT_11_Verify_ManageTransferActions(failed) -->
+  <test name="HLT_12_Verify_SearchDetails_ManageTransfers(failed)">
+    <classes>
+      <class name="in.v2solutions.hybrid.testcases.HLT_12_Verify_SearchDetails_ManageTransfers">
+        <methods>
+          <include name="afterTest"/>
+          <include name="verify_SearchDetails_ManageTransfers" invocation-numbers="0"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- in.v2solutions.hybrid.testcases.HLT_12_Verify_SearchDetails_ManageTransfers -->
+    </classes>
+  </test> <!-- HLT_12_Verify_SearchDetails_ManageTransfers(failed) -->
+  <test name="HLT_15_Verify_AddExternalHostTransfer(failed)">
+    <classes>
+      <class name="in.v2solutions.hybrid.testcases.HLT_15_Verify_AddExternalHostTransfer">
+        <methods>
+          <include name="afterTest"/>
+          <include name="beforeTest"/>
+          <include name="verify_AddExternalHostTransfer" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- in.v2solutions.hybrid.testcases.HLT_15_Verify_AddExternalHostTransfer -->
+    </classes>
+  </test> <!-- HLT_15_Verify_AddExternalHostTransfer(failed) -->
+  <test name="HLT_16_Verify_SearchOperationForDatabaseListAndArchiveLogs(failed)">
+    <classes>
+      <class name="in.v2solutions.hybrid.testcases.HLT_16_Verify_SearchOperationForDatabaseListAndArchiveLogs">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="verify_SearchOperationForDatabaseListAndArchiveLogs" invocation-numbers="0"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- in.v2solutions.hybrid.testcases.HLT_16_Verify_SearchOperationForDatabaseListAndArchiveLogs -->
+    </classes>
+  </test> <!-- HLT_16_Verify_SearchOperationForDatabaseListAndArchiveLogs(failed) -->
+  <test name="HLT_17_Verify_AdministratorRolePermissions(failed)">
+    <classes>
+      <class name="in.v2solutions.hybrid.testcases.HLT_17_Verify_AdministratorRolePermissions">
+        <methods>
+          <include name="afterTest"/>
+          <include name="verify_AdministratorRolePermissions" invocation-numbers="0"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- in.v2solutions.hybrid.testcases.HLT_17_Verify_AdministratorRolePermissions -->
+    </classes>
+  </test> <!-- HLT_17_Verify_AdministratorRolePermissions(failed) -->
+  <test name="HLT_18_Verify_UserRolePermissions(failed)">
+    <classes>
+      <class name="in.v2solutions.hybrid.testcases.HLT_18_Verify_UserRolePermissions">
+        <methods>
+          <include name="afterTest"/>
+          <include name="verify_UserRolePermissions" invocation-numbers="0"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- in.v2solutions.hybrid.testcases.HLT_18_Verify_UserRolePermissions -->
+    </classes>
+  </test> <!-- HLT_18_Verify_UserRolePermissions(failed) -->
+  <test name="HLT_19_Verify_SuperuserRolePermissions(failed)">
+    <classes>
+      <class name="in.v2solutions.hybrid.testcases.HLT_19_Verify_SuperuserRolePermissions">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="verify_SuperuserRolePermissions" invocation-numbers="0"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- in.v2solutions.hybrid.testcases.HLT_19_Verify_SuperuserRolePermissions -->
+    </classes>
+  </test> <!-- HLT_19_Verify_SuperuserRolePermissions(failed) -->
+  <test name="HLT_21_Verify_ScheduleTransfer(failed)">
+    <classes>
+      <class name="in.v2solutions.hybrid.testcases.HLT_21_Verify_ScheduleTransfer">
+        <methods>
+          <include name="verify_ScheduleTransfer" invocation-numbers="0"/>
+          <include name="beforeTest"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- in.v2solutions.hybrid.testcases.HLT_21_Verify_ScheduleTransfer -->
+    </classes>
+  </test> <!-- HLT_21_Verify_ScheduleTransfer(failed) -->
+  <test name="HLT_22_Verify_ProfileActions(failed)">
+    <classes>
+      <class name="in.v2solutions.hybrid.testcases.HLT_22_Verify_ProfileActions">
+        <methods>
+          <include name="verify_ProfileActions" invocation-numbers="0"/>
+          <include name="afterTest"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- in.v2solutions.hybrid.testcases.HLT_22_Verify_ProfileActions -->
+    </classes>
+  </test> <!-- HLT_22_Verify_ProfileActions(failed) -->
+  <test name="HLT_23_Verify_ProductsLicenses(failed)">
+    <classes>
+      <class name="in.v2solutions.hybrid.testcases.HLT_23_Verify_ProductsLicenses">
+        <methods>
+          <include name="verify_ProductsLicenses" invocation-numbers="0"/>
+          <include name="afterTest"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- in.v2solutions.hybrid.testcases.HLT_23_Verify_ProductsLicenses -->
+    </classes>
+  </test> <!-- HLT_23_Verify_ProductsLicenses(failed) -->
+  <test name="HLT_28_Verify_SelectUnselectSFTPServeronHosts(failed)">
+    <classes>
+      <class name="in.v2solutions.hybrid.testcases.HLT_28_Verify_SelectUnselectSFTPServeronHosts">
+        <methods>
+          <include name="verify_SelectUnselectSFTPServeronHosts" invocation-numbers="0"/>
+          <include name="beforeTest"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- in.v2solutions.hybrid.testcases.HLT_28_Verify_SelectUnselectSFTPServeronHosts -->
+    </classes>
+  </test> <!-- HLT_28_Verify_SelectUnselectSFTPServeronHosts(failed) -->
+  <test name="HLT_29_Verify_SFTPTransfer(failed)">
+    <classes>
+      <class name="in.v2solutions.hybrid.testcases.HLT_29_Verify_SFTPTransfer">
+        <methods>
+          <include name="verify_SFTPTransfer" invocation-numbers="0"/>
+          <include name="beforeTest"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- in.v2solutions.hybrid.testcases.HLT_29_Verify_SFTPTransfer -->
+    </classes>
+  </test> <!-- HLT_29_Verify_SFTPTransfer(failed) -->
+  <test name="HLT_31_Verify_ProductsLicensesInsatllations(failed)">
+    <classes>
+      <class name="in.v2solutions.hybrid.testcases.HLT_31_Verify_ProductsLicensesInsatllations">
+        <methods>
+          <include name="verify_ProductsLicensesInsatllations" invocation-numbers="0"/>
+          <include name="afterTest"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- in.v2solutions.hybrid.testcases.HLT_31_Verify_ProductsLicensesInsatllations -->
+    </classes>
+  </test> <!-- HLT_31_Verify_ProductsLicensesInsatllations(failed) -->
+  <test name="HLT_32_Verify_GlobalSearchDeatilsTransferHistory(failed)">
+    <classes>
+      <class name="in.v2solutions.hybrid.testcases.HLT_32_Verify_GlobalSearchDeatilsTransferHistory">
+        <methods>
+          <include name="verify_GlobalSearchDeatilsTransferHistory" invocation-numbers="0"/>
+          <include name="afterTest"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- in.v2solutions.hybrid.testcases.HLT_32_Verify_GlobalSearchDeatilsTransferHistory -->
+    </classes>
+  </test> <!-- HLT_32_Verify_GlobalSearchDeatilsTransferHistory(failed) -->
+  <test name="HLT_33_Verify_MetaDatafileForTransfers(failed)">
+    <classes>
+      <class name="in.v2solutions.hybrid.testcases.HLT_33_Verify_MetaDatafileForTransfers">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="verify_MetaDatafileForTransfers" invocation-numbers="0"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- in.v2solutions.hybrid.testcases.HLT_33_Verify_MetaDatafileForTransfers -->
+    </classes>
+  </test> <!-- HLT_33_Verify_MetaDatafileForTransfers(failed) -->
+  <test name="HLT_34_Verify_SearchFunctionalityWorksForUserActions(failed)">
+    <classes>
+      <class name="in.v2solutions.hybrid.testcases.HLT_34_Verify_SearchFunctionalityWorksForUserActions">
+        <methods>
+          <include name="verify_SearchFunctionalityWorksForUserActions" invocation-numbers="0"/>
+          <include name="afterTest"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- in.v2solutions.hybrid.testcases.HLT_34_Verify_SearchFunctionalityWorksForUserActions -->
+    </classes>
+  </test> <!-- HLT_34_Verify_SearchFunctionalityWorksForUserActions(failed) -->
+  <test name="HLT_36_Verify_SystemNotifications(failed)">
+    <classes>
+      <class name="in.v2solutions.hybrid.testcases.HLT_36_Verify_SystemNotifications">
+        <methods>
+          <include name="verify_SystemNotifications" invocation-numbers="0"/>
+          <include name="afterTest"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- in.v2solutions.hybrid.testcases.HLT_36_Verify_SystemNotifications -->
+    </classes>
+  </test> <!-- HLT_36_Verify_SystemNotifications(failed) -->
+  <test name="HLT_37_Verify_AssignUnassignHostToExternalUserAndVerifyDeleteAction(failed)">
+    <classes>
+      <class name="in.v2solutions.hybrid.testcases.HLT_37_Verify_AssignUnassignHostToExternalUserAndVerifyDeleteAction">
+        <methods>
+          <include name="verify_AssignUnassignHostToExternalUserAnd" invocation-numbers="0"/>
+          <include name="beforeTest"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- in.v2solutions.hybrid.testcases.HLT_37_Verify_AssignUnassignHostToExternalUserAndVerifyDeleteAction -->
+    </classes>
+  </test> <!-- HLT_37_Verify_AssignUnassignHostToExternalUserAndVerifyDeleteAction(failed) -->
+  <test name="HLT_38_Verify_ScheduleTransferUsingCronExpression(failed)">
+    <classes>
+      <class name="in.v2solutions.hybrid.testcases.HLT_38_Verify_ScheduleTransferUsingCronExpression">
+        <methods>
+          <include name="afterTest"/>
+          <include name="beforeTest"/>
+          <include name="verify_ScheduleTransferUsingCronExpression" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- in.v2solutions.hybrid.testcases.HLT_38_Verify_ScheduleTransferUsingCronExpression -->
+    </classes>
+  </test> <!-- HLT_38_Verify_ScheduleTransferUsingCronExpression(failed) -->
+  <test name="HLT_35_Verify_CaptureUserActions(failed)">
+    <classes>
+      <class name="in.v2solutions.hybrid.testcases.HLT_35_Verify_CaptureUserActions">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="afterTest"/>
+          <include name="verify_CaptureUserActions" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- in.v2solutions.hybrid.testcases.HLT_35_Verify_CaptureUserActions -->
+    </classes>
+  </test> <!-- HLT_35_Verify_CaptureUserActions(failed) -->
+  <test name="HLT_39_Verify_CreateNewSubJobTransfer(failed)">
+    <classes>
+      <class name="in.v2solutions.hybrid.testcases.HLT_39_Verify_CreateNewSubJobTransfer">
+        <methods>
+          <include name="verify_CreateNewSubJobTransfer" invocation-numbers="0"/>
+          <include name="afterTest"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- in.v2solutions.hybrid.testcases.HLT_39_Verify_CreateNewSubJobTransfer -->
+    </classes>
+  </test> <!-- HLT_39_Verify_CreateNewSubJobTransfer(failed) -->
+  <test name="HLT_41_Verify_SubJobTransferActions(failed)">
+    <classes>
+      <class name="in.v2solutions.hybrid.testcases.HLT_41_Verify_SubJobTransferActions">
+        <methods>
+          <include name="afterTest"/>
+          <include name="beforeTest"/>
+          <include name="verify_SubJobTransferActions" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- in.v2solutions.hybrid.testcases.HLT_41_Verify_SubJobTransferActions -->
+    </classes>
+  </test> <!-- HLT_41_Verify_SubJobTransferActions(failed) -->
+  <test name="HLT_42_Verify_KnowledgeBaseContactUsURLs(failed)">
+    <classes>
+      <class name="in.v2solutions.hybrid.testcases.HLT_42_Verify_KnowledgeBaseContactUsURLs">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="afterTest"/>
+          <include name="verify_KnowledgeBaseContactUsURLs" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- in.v2solutions.hybrid.testcases.HLT_42_Verify_KnowledgeBaseContactUsURLs -->
+    </classes>
+  </test> <!-- HLT_42_Verify_KnowledgeBaseContactUsURLs(failed) -->
+  <test name="HLT_43_Verify_ScheduleSubJobTransfer(failed)">
+    <classes>
+      <class name="in.v2solutions.hybrid.testcases.HLT_43_Verify_ScheduleSubJobTransfer">
+        <methods>
+          <include name="verify_ScheduleSubJobTransfer" invocation-numbers="0"/>
+          <include name="afterTest"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- in.v2solutions.hybrid.testcases.HLT_43_Verify_ScheduleSubJobTransfer -->
+    </classes>
+  </test> <!-- HLT_43_Verify_ScheduleSubJobTransfer(failed) -->
+  <test name="HLT_44_Verify_SubjobTransferActionSAnditShouldNotDisplayMigrateAction(failed)">
+    <classes>
+      <class name="in.v2solutions.hybrid.testcases.HLT_44_Verify_SubjobTransferActionSAnditShouldNotDisplayMigrateAction">
+        <methods>
+          <include name="verify_SubjobTransferActionSAnditShouldNotDisplayMigrateAction" invocation-numbers="0"/>
+          <include name="afterTest"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- in.v2solutions.hybrid.testcases.HLT_44_Verify_SubjobTransferActionSAnditShouldNotDisplayMigrateAction -->
+    </classes>
+  </test> <!-- HLT_44_Verify_SubjobTransferActionSAnditShouldNotDisplayMigrateAction(failed) -->
+  <test name="HLT_45_Verify_CreateSubJobWithEngineAndVerifyTransferLogs(failed)">
+    <classes>
+      <class name="in.v2solutions.hybrid.testcases.HLT_45_Verify_CreateSubJobWithEngineAndVerifyTransferLogs">
+        <methods>
+          <include name="afterTest"/>
+          <include name="verify_CreateSubJobWithEngineAnd" invocation-numbers="0"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- in.v2solutions.hybrid.testcases.HLT_45_Verify_CreateSubJobWithEngineAndVerifyTransferLogs -->
+    </classes>
+  </test> <!-- HLT_45_Verify_CreateSubJobWithEngineAndVerifyTransferLogs(failed) -->
+  <test name="HLT_46_Verify_CreateNewTransferWithFTPSProtocolAndItsActions(failed)">
+    <classes>
+      <class name="in.v2solutions.hybrid.testcases.HLT_46_Verify_CreateNewTransferWithFTPSProtocolAndItsActions">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="verify_CreateNewTransferWithFTPSProtocolAndItsActions" invocation-numbers="0"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- in.v2solutions.hybrid.testcases.HLT_46_Verify_CreateNewTransferWithFTPSProtocolAndItsActions -->
+    </classes>
+  </test> <!-- HLT_46_Verify_CreateNewTransferWithFTPSProtocolAndItsActions(failed) -->
+  <test name="HLT_47_Verify_CreateMultipleSubjobsAndVerifyStatus(failed)">
+    <classes>
+      <class name="in.v2solutions.hybrid.testcases.HLT_47_Verify_CreateMultipleSubjobsAndVerifyStatus">
+        <methods>
+          <include name="verify_CreateMultipleSubjobsAnd" invocation-numbers="0"/>
+          <include name="beforeTest"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- in.v2solutions.hybrid.testcases.HLT_47_Verify_CreateMultipleSubjobsAndVerifyStatus -->
+    </classes>
+  </test> <!-- HLT_47_Verify_CreateMultipleSubjobsAndVerifyStatus(failed) -->
+  <test name="HLT_50_Verify_KeyCompatabilityWhileCreatingTransfer(failed)">
+    <classes>
+      <class name="in.v2solutions.hybrid.testcases.HLT_50_Verify_KeyCompatabilityWhileCreatingTransfer">
+        <methods>
+          <include name="verify_KeyCompatabilityWhileCreatingTransfer" invocation-numbers="0"/>
+          <include name="beforeTest"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- in.v2solutions.hybrid.testcases.HLT_50_Verify_KeyCompatabilityWhileCreatingTransfer -->
+    </classes>
+  </test> <!-- HLT_50_Verify_KeyCompatabilityWhileCreatingTransfer(failed) -->
+  <test name="HLT_51_Verify_CreateViewEditDeleteDataForApplicationsModule(failed)">
+    <classes>
+      <class name="in.v2solutions.hybrid.testcases.HLT_51_Verify_CreateViewEditDeleteDataForApplicationsModule">
+        <methods>
+          <include name="verify_CreateViewEditDeleteDataForApplicationsModule" invocation-numbers="0"/>
+          <include name="beforeTest"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- in.v2solutions.hybrid.testcases.HLT_51_Verify_CreateViewEditDeleteDataForApplicationsModule -->
+    </classes>
+  </test> <!-- HLT_51_Verify_CreateViewEditDeleteDataForApplicationsModule(failed) -->
+</suite> <!-- Failed suite [Regression] -->

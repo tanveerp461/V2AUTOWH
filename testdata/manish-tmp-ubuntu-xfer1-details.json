@@ -1,0 +1,57 @@
+{
+  "hostName": "manish-tmp-ubuntu-xfer1",
+  "ipAddress": "198.199.114.64",
+  "os": "Linux",
+  "hulftEngineName": "HULFT Transfer 8.4",
+  "hulftEngineVersion": "8.4",
+  "supportedProtocols": {
+    "HULFT": {
+      "credentials": []
+    },
+    "SFTP Client": {
+      "credentials": []
+    },
+    "SFTP Server": {
+      "credentials": [
+        {
+          "id": 5,
+          "name": "manishkumar",
+          "authenticationMethod": "username",
+          "username": "manish",
+          "password": "mail_123",
+          "publicKey": null,
+          "organization": null,
+          "street": null,
+          "city": null,
+          "state": null,
+          "zipcode": null,
+          "country": null,
+          "email": "manish@test.com",
+          "phoneNumber": null,
+          "timeZone": null,
+          "description": null,
+          "expirationDate": null,
+          "customIdentifier": "manish-01",
+          "created_at": "2018-07-27T09:48:57.000Z",
+          "updated_at": "2018-07-27T09:48:57.000Z",
+          "readPermission": true,
+          "writePermission": true,
+          "executePermission": true
+        }
+      ],
+      "sftpPort": 2222,
+      "sftpRootFolder": "/home",
+      "useCustomIdentifier": "name"
+    }
+  },
+  "receivePort": 30000,
+  "receiveAckPort": 31000,
+  "timeZone": "America/Los_Angeles",
+  "forcedStrongKeyMode": true,
+  "encryptionType": "aes",
+  "sendRetryCount": 0,
+  "characterEncoding": null,
+  "sendRetryInterval": 0,
+  "communicationRetryCount": 10,
+  "communicationRetryInterval": 1
+}

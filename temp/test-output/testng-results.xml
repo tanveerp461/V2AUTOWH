@@ -1,0 +1,2535 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="39" failed="0" ignored="0" total="40" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Regression" duration-ms="249131" started-at="2019-01-31T22:30:41Z" finished-at="2019-01-31T22:34:51Z">
+    <groups>
+    </groups>
+    <test name="HLT_00_Verify_TestData" duration-ms="1153" started-at="2019-01-31T22:30:41Z" finished-at="2019-01-31T22:30:43Z">
+      <class name="in.v2solutions.hybrid.testcases.HLT_00_Verify_TestData">
+        <test-method status="PASS" signature="beforeTest(java.lang.String)[pri:0, instance:in.v2solutions.hybrid.testcases.HLT_00_Verify_TestData@bcec361]" name="beforeTest" is-config="true" duration-ms="622" started-at="2019-02-01T04:00:41Z" finished-at="2019-02-01T04:00:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[HULFT_bulid5667--All_Regression]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="SKIP" signature="verify_TestData(java.util.Hashtable)[pri:0, instance:in.v2solutions.hybrid.testcases.HLT_00_Verify_TestData@bcec361]" name="verify_TestData" duration-ms="47" started-at="2019-02-01T04:00:42Z" data-provider="getTestData" finished-at="2019-02-01T04:00:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{RunMode=Y}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[This Test Script is Skipped as it's RunMode is Marked as NO]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: This Test Script is Skipped as it's RunMode is Marked as NO
+	at in.v2solutions.hybrid.testcases.HLT_00_Verify_TestData.verify_TestData(HLT_00_Verify_TestData.java:52)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.TestNG.privateMain(TestNG.java:1442)
+	at org.testng.TestNG.main(TestNG.java:1411)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_TestData -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:in.v2solutions.hybrid.testcases.HLT_00_Verify_TestData@bcec361]" name="afterTest" is-config="true" duration-ms="453" started-at="2019-02-01T04:00:42Z" finished-at="2019-02-01T04:00:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- in.v2solutions.hybrid.testcases.HLT_00_Verify_TestData -->
+    </test> <!-- HLT_00_Verify_TestData -->
+    <test name="HLT_01_Verify_AddViewEditSearchAndDeleteFunctionalitiesForNewUser" duration-ms="141" started-at="2019-01-31T22:30:43Z" finished-at="2019-01-31T22:30:43Z">
+      <class name="in.v2solutions.hybrid.testcases.HLT_01_Verify_AddViewEditSearchAndDeleteFunctionalitiesForNewUser">
+        <test-method status="PASS" signature="beforeTest(java.lang.String)[pri:0, instance:in.v2solutions.hybrid.testcases.HLT_01_Verify_AddViewEditSearchAndDeleteFunctionalitiesForNewUser@8297b3a]" name="beforeTest" is-config="true" duration-ms="0" started-at="2019-02-01T04:00:43Z" finished-at="2019-02-01T04:00:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[HULFT_bulid5667--All_Regression]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="SKIP" signature="verify_AddViewEditSearchAndDeleteFunctionalitiesForNewUser(java.util.Hashtable)[pri:0, instance:in.v2solutions.hybrid.testcases.HLT_01_Verify_AddViewEditSearchAndDeleteFunctionalitiesForNewUser@8297b3a]" name="verify_AddViewEditSearchAndDeleteFunctionalitiesForNewUser" duration-ms="0" started-at="2019-02-01T04:00:43Z" data-provider="getTestData" finished-at="2019-02-01T04:00:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{RunMode=Y}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[This Test Script is Skipped as it's RunMode is Marked as NO]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: This Test Script is Skipped as it's RunMode is Marked as NO
+	at in.v2solutions.hybrid.testcases.HLT_01_Verify_AddViewEditSearchAndDeleteFunctionalitiesForNewUser.verify_AddViewEditSearchAndDeleteFunctionalitiesForNewUser(HLT_01_Verify_AddViewEditSearchAndDeleteFunctionalitiesForNewUser.java:52)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.TestNG.privateMain(TestNG.java:1442)
+	at org.testng.TestNG.main(TestNG.java:1411)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_AddViewEditSearchAndDeleteFunctionalitiesForNewUser -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:in.v2solutions.hybrid.testcases.HLT_01_Verify_AddViewEditSearchAndDeleteFunctionalitiesForNewUser@8297b3a]" name="afterTest" is-config="true" duration-ms="125" started-at="2019-02-01T04:00:43Z" finished-at="2019-02-01T04:00:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- in.v2solutions.hybrid.testcases.HLT_01_Verify_AddViewEditSearchAndDeleteFunctionalitiesForNewUser -->
+    </test> <!-- HLT_01_Verify_AddViewEditSearchAndDeleteFunctionalitiesForNewUser -->
+    <test name="HLT_02_Verify_AddViewEditSearchAndDeleteFunctionalitiesForCredentials" duration-ms="125" started-at="2019-01-31T22:30:43Z" finished-at="2019-01-31T22:30:43Z">
+      <class name="in.v2solutions.hybrid.testcases.HLT_02_Verify_AddViewEditSearchAndDeleteFunctionalitiesForCredentials">
+        <test-method status="SKIP" signature="verify_AddViewEditSearchAndDeleteFunctionalitiesForCredentials(java.util.Hashtable)[pri:0, instance:in.v2solutions.hybrid.testcases.HLT_02_Verify_AddViewEditSearchAndDeleteFunctionalitiesForCredentials@247bddad]" name="verify_AddViewEditSearchAndDeleteFunctionalitiesForCredentials" duration-ms="0" started-at="2019-02-01T04:00:43Z" data-provider="getTestData" finished-at="2019-02-01T04:00:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{RunMode=Y}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[This Test Script is Skipped as it's RunMode is Marked as NO]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: This Test Script is Skipped as it's RunMode is Marked as NO
+	at in.v2solutions.hybrid.testcases.HLT_02_Verify_AddViewEditSearchAndDeleteFunctionalitiesForCredentials.verify_AddViewEditSearchAndDeleteFunctionalitiesForCredentials(HLT_02_Verify_AddViewEditSearchAndDeleteFunctionalitiesForCredentials.java:52)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.TestNG.privateMain(TestNG.java:1442)
+	at org.testng.TestNG.main(TestNG.java:1411)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_AddViewEditSearchAndDeleteFunctionalitiesForCredentials -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:in.v2solutions.hybrid.testcases.HLT_02_Verify_AddViewEditSearchAndDeleteFunctionalitiesForCredentials@247bddad]" name="afterTest" is-config="true" duration-ms="125" started-at="2019-02-01T04:00:43Z" finished-at="2019-02-01T04:00:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="beforeTest(java.lang.String)[pri:0, instance:in.v2solutions.hybrid.testcases.HLT_02_Verify_AddViewEditSearchAndDeleteFunctionalitiesForCredentials@247bddad]" name="beforeTest" is-config="true" duration-ms="0" started-at="2019-02-01T04:00:43Z" finished-at="2019-02-01T04:00:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[HULFT_bulid5667--All_Regression]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+      </class> <!-- in.v2solutions.hybrid.testcases.HLT_02_Verify_AddViewEditSearchAndDeleteFunctionalitiesForCredentials -->
+    </test> <!-- HLT_02_Verify_AddViewEditSearchAndDeleteFunctionalitiesForCredentials -->
+    <test name="HLT_03_Verify_AddViewEditSearchAndDeleteFunctionalitiesForUserGroups" duration-ms="141" started-at="2019-01-31T22:30:43Z" finished-at="2019-01-31T22:30:43Z">
+      <class name="in.v2solutions.hybrid.testcases.HLT_03_Verify_AddViewEditSearchAndDeleteFunctionalitiesForUserGroups">
+        <test-method status="PASS" signature="beforeTest(java.lang.String)[pri:0, instance:in.v2solutions.hybrid.testcases.HLT_03_Verify_AddViewEditSearchAndDeleteFunctionalitiesForUserGroups@41a2befb]" name="beforeTest" is-config="true" duration-ms="16" started-at="2019-02-01T04:00:43Z" finished-at="2019-02-01T04:00:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[HULFT_bulid5667--All_Regression]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:in.v2solutions.hybrid.testcases.HLT_03_Verify_AddViewEditSearchAndDeleteFunctionalitiesForUserGroups@41a2befb]" name="afterTest" is-config="true" duration-ms="125" started-at="2019-02-01T04:00:43Z" finished-at="2019-02-01T04:00:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="SKIP" signature="verify_AddViewEditSearchAndDeleteFunctionalitiesForUserGroups(java.util.Hashtable)[pri:0, instance:in.v2solutions.hybrid.testcases.HLT_03_Verify_AddViewEditSearchAndDeleteFunctionalitiesForUserGroups@41a2befb]" name="verify_AddViewEditSearchAndDeleteFunctionalitiesForUserGroups" duration-ms="0" started-at="2019-02-01T04:00:43Z" data-provider="getTestData" finished-at="2019-02-01T04:00:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{RunMode=Y}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[This Test Script is Skipped as it's RunMode is Marked as NO]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: This Test Script is Skipped as it's RunMode is Marked as NO
+	at in.v2solutions.hybrid.testcases.HLT_03_Verify_AddViewEditSearchAndDeleteFunctionalitiesForUserGroups.verify_AddViewEditSearchAndDeleteFunctionalitiesForUserGroups(HLT_03_Verify_AddViewEditSearchAndDeleteFunctionalitiesForUserGroups.java:52)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.TestNG.privateMain(TestNG.java:1442)
+	at org.testng.TestNG.main(TestNG.java:1411)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_AddViewEditSearchAndDeleteFunctionalitiesForUserGroups -->
+      </class> <!-- in.v2solutions.hybrid.testcases.HLT_03_Verify_AddViewEditSearchAndDeleteFunctionalitiesForUserGroups -->
+    </test> <!-- HLT_03_Verify_AddViewEditSearchAndDeleteFunctionalitiesForUserGroups -->
+    <test name="HLT_04_Verify_HostActionsFunctionality" duration-ms="93" started-at="2019-01-31T22:30:43Z" finished-at="2019-01-31T22:30:43Z">
+      <class name="in.v2solutions.hybrid.testcases.HLT_04_Verify_HostActionsFunctionality">
+        <test-method status="PASS" signature="beforeTest(java.lang.String)[pri:0, instance:in.v2solutions.hybrid.testcases.HLT_04_Verify_HostActionsFunctionality@23348b5d]" name="beforeTest" is-config="true" duration-ms="0" started-at="2019-02-01T04:00:43Z" finished-at="2019-02-01T04:00:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[HULFT_bulid5667--All_Regression]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="SKIP" signature="verify_HostActionsFunctionality(java.util.Hashtable)[pri:0, instance:in.v2solutions.hybrid.testcases.HLT_04_Verify_HostActionsFunctionality@23348b5d]" name="verify_HostActionsFunctionality" duration-ms="0" started-at="2019-02-01T04:00:43Z" data-provider="getTestData" finished-at="2019-02-01T04:00:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{RunMode=Y}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[This Test Script is Skipped as it's RunMode is Marked as NO]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: This Test Script is Skipped as it's RunMode is Marked as NO
+	at in.v2solutions.hybrid.testcases.HLT_04_Verify_HostActionsFunctionality.verify_HostActionsFunctionality(HLT_04_Verify_HostActionsFunctionality.java:52)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.TestNG.privateMain(TestNG.java:1442)
+	at org.testng.TestNG.main(TestNG.java:1411)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_HostActionsFunctionality -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:in.v2solutions.hybrid.testcases.HLT_04_Verify_HostActionsFunctionality@23348b5d]" name="afterTest" is-config="true" duration-ms="93" started-at="2019-02-01T04:00:43Z" finished-at="2019-02-01T04:00:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- in.v2solutions.hybrid.testcases.HLT_04_Verify_HostActionsFunctionality -->
+    </test> <!-- HLT_04_Verify_HostActionsFunctionality -->
+    <test name="HLT_05_Verify_AddViewEditSearchExportAndDeleteFunctionalitiesForTransferReports" duration-ms="94" started-at="2019-01-31T22:30:43Z" finished-at="2019-01-31T22:30:43Z">
+      <class name="in.v2solutions.hybrid.testcases.HLT_05_Verify_AddViewEditSearchExportAndDeleteFunctionalitiesForTransferReports">
+        <test-method status="SKIP" signature="verify_AddViewEditSearchExportAndDeleteFunctionalitiesForTransferReports(java.util.Hashtable)[pri:0, instance:in.v2solutions.hybrid.testcases.HLT_05_Verify_AddViewEditSearchExportAndDeleteFunctionalitiesForTransferReports@69453e37]" name="verify_AddViewEditSearchExportAndDeleteFunctionalitiesForTransferReports" duration-ms="0" started-at="2019-02-01T04:00:43Z" data-provider="getTestData" finished-at="2019-02-01T04:00:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{RunMode=Y}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[This Test Script is Skipped as it's RunMode is Marked as NO]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: This Test Script is Skipped as it's RunMode is Marked as NO
+	at in.v2solutions.hybrid.testcases.HLT_05_Verify_AddViewEditSearchExportAndDeleteFunctionalitiesForTransferReports.verify_AddViewEditSearchExportAndDeleteFunctionalitiesForTransferReports(HLT_05_Verify_AddViewEditSearchExportAndDeleteFunctionalitiesForTransferReports.java:52)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.TestNG.privateMain(TestNG.java:1442)
+	at org.testng.TestNG.main(TestNG.java:1411)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_AddViewEditSearchExportAndDeleteFunctionalitiesForTransferReports -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:in.v2solutions.hybrid.testcases.HLT_05_Verify_AddViewEditSearchExportAndDeleteFunctionalitiesForTransferReports@69453e37]" name="afterTest" is-config="true" duration-ms="94" started-at="2019-02-01T04:00:43Z" finished-at="2019-02-01T04:00:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="beforeTest(java.lang.String)[pri:0, instance:in.v2solutions.hybrid.testcases.HLT_05_Verify_AddViewEditSearchExportAndDeleteFunctionalitiesForTransferReports@69453e37]" name="beforeTest" is-config="true" duration-ms="0" started-at="2019-02-01T04:00:43Z" finished-at="2019-02-01T04:00:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[HULFT_bulid5667--All_Regression]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+      </class> <!-- in.v2solutions.hybrid.testcases.HLT_05_Verify_AddViewEditSearchExportAndDeleteFunctionalitiesForTransferReports -->
+    </test> <!-- HLT_05_Verify_AddViewEditSearchExportAndDeleteFunctionalitiesForTransferReports -->
+    <test name="HLT_06_Verify_AddViewEditSearchAndDeleteFunctionalitiesForHostReports" duration-ms="93" started-at="2019-01-31T22:30:43Z" finished-at="2019-01-31T22:30:43Z">
+      <class name="in.v2solutions.hybrid.testcases.HLT_06_Verify_AddViewEditSearchAndDeleteFunctionalitiesForHostReports">
+        <test-method status="SKIP" signature="verify_AddViewEditSearchAndDeleteFunctionalitiesForHostReports(java.util.Hashtable)[pri:0, instance:in.v2solutions.hybrid.testcases.HLT_06_Verify_AddViewEditSearchAndDeleteFunctionalitiesForHostReports@587e5365]" name="verify_AddViewEditSearchAndDeleteFunctionalitiesForHostReports" duration-ms="0" started-at="2019-02-01T04:00:43Z" data-provider="getTestData" finished-at="2019-02-01T04:00:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{RunMode=Y}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[This Test Script is Skipped as it's RunMode is Marked as NO]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: This Test Script is Skipped as it's RunMode is Marked as NO
+	at in.v2solutions.hybrid.testcases.HLT_06_Verify_AddViewEditSearchAndDeleteFunctionalitiesForHostReports.verify_AddViewEditSearchAndDeleteFunctionalitiesForHostReports(HLT_06_Verify_AddViewEditSearchAndDeleteFunctionalitiesForHostReports.java:52)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.TestNG.privateMain(TestNG.java:1442)
+	at org.testng.TestNG.main(TestNG.java:1411)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_AddViewEditSearchAndDeleteFunctionalitiesForHostReports -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:in.v2solutions.hybrid.testcases.HLT_06_Verify_AddViewEditSearchAndDeleteFunctionalitiesForHostReports@587e5365]" name="afterTest" is-config="true" duration-ms="93" started-at="2019-02-01T04:00:43Z" finished-at="2019-02-01T04:00:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="beforeTest(java.lang.String)[pri:0, instance:in.v2solutions.hybrid.testcases.HLT_06_Verify_AddViewEditSearchAndDeleteFunctionalitiesForHostReports@587e5365]" name="beforeTest" is-config="true" duration-ms="0" started-at="2019-02-01T04:00:43Z" finished-at="2019-02-01T04:00:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[HULFT_bulid5667--All_Regression]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+      </class> <!-- in.v2solutions.hybrid.testcases.HLT_06_Verify_AddViewEditSearchAndDeleteFunctionalitiesForHostReports -->
+    </test> <!-- HLT_06_Verify_AddViewEditSearchAndDeleteFunctionalitiesForHostReports -->
+    <test name="HLT_07_Verify_AddViewEditSearchAndDeleteFunctionalitiesForSystemStatusReports" duration-ms="110" started-at="2019-01-31T22:30:43Z" finished-at="2019-01-31T22:30:44Z">
+      <class name="in.v2solutions.hybrid.testcases.HLT_07_Verify_AddViewEditSearchAndDeleteFunctionalitiesForSystemStatusReports">
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:in.v2solutions.hybrid.testcases.HLT_07_Verify_AddViewEditSearchAndDeleteFunctionalitiesForSystemStatusReports@7d8704ef]" name="afterTest" is-config="true" duration-ms="110" started-at="2019-02-01T04:00:43Z" finished-at="2019-02-01T04:00:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="SKIP" signature="verify_AddViewEditSearchAndDeleteFunctionalitiesForSystemStatusReports(java.util.Hashtable)[pri:0, instance:in.v2solutions.hybrid.testcases.HLT_07_Verify_AddViewEditSearchAndDeleteFunctionalitiesForSystemStatusReports@7d8704ef]" name="verify_AddViewEditSearchAndDeleteFunctionalitiesForSystemStatusReports" duration-ms="0" started-at="2019-02-01T04:00:43Z" data-provider="getTestData" finished-at="2019-02-01T04:00:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{RunMode=Y}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[This Test Script is Skipped as it's RunMode is Marked as NO]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: This Test Script is Skipped as it's RunMode is Marked as NO
+	at in.v2solutions.hybrid.testcases.HLT_07_Verify_AddViewEditSearchAndDeleteFunctionalitiesForSystemStatusReports.verify_AddViewEditSearchAndDeleteFunctionalitiesForSystemStatusReports(HLT_07_Verify_AddViewEditSearchAndDeleteFunctionalitiesForSystemStatusReports.java:52)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.TestNG.privateMain(TestNG.java:1442)
+	at org.testng.TestNG.main(TestNG.java:1411)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_AddViewEditSearchAndDeleteFunctionalitiesForSystemStatusReports -->
+        <test-method status="PASS" signature="beforeTest(java.lang.String)[pri:0, instance:in.v2solutions.hybrid.testcases.HLT_07_Verify_AddViewEditSearchAndDeleteFunctionalitiesForSystemStatusReports@7d8704ef]" name="beforeTest" is-config="true" duration-ms="0" started-at="2019-02-01T04:00:43Z" finished-at="2019-02-01T04:00:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[HULFT_bulid5667--All_Regression]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+      </class> <!-- in.v2solutions.hybrid.testcases.HLT_07_Verify_AddViewEditSearchAndDeleteFunctionalitiesForSystemStatusReports -->
+    </test> <!-- HLT_07_Verify_AddViewEditSearchAndDeleteFunctionalitiesForSystemStatusReports -->
+    <test name="HLT_08_Verify_AddViewEditSearchAndDeleteFunctionalitiesForUserReports" duration-ms="94" started-at="2019-01-31T22:30:44Z" finished-at="2019-01-31T22:30:44Z">
+      <class name="in.v2solutions.hybrid.testcases.HLT_08_Verify_AddViewEditSearchAndDeleteFunctionalitiesForUserReports">
+        <test-method status="SKIP" signature="verify_AddViewEditSearchAndDeleteFunctionalitiesForUserReports(java.util.Hashtable)[pri:0, instance:in.v2solutions.hybrid.testcases.HLT_08_Verify_AddViewEditSearchAndDeleteFunctionalitiesForUserReports@4e50c791]" name="verify_AddViewEditSearchAndDeleteFunctionalitiesForUserReports" duration-ms="0" started-at="2019-02-01T04:00:44Z" data-provider="getTestData" finished-at="2019-02-01T04:00:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{RunMode=Y}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[This Test Script is Skipped as it's RunMode is Marked as NO]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: This Test Script is Skipped as it's RunMode is Marked as NO
+	at in.v2solutions.hybrid.testcases.HLT_08_Verify_AddViewEditSearchAndDeleteFunctionalitiesForUserReports.verify_AddViewEditSearchAndDeleteFunctionalitiesForUserReports(HLT_08_Verify_AddViewEditSearchAndDeleteFunctionalitiesForUserReports.java:52)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.TestNG.privateMain(TestNG.java:1442)
+	at org.testng.TestNG.main(TestNG.java:1411)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_AddViewEditSearchAndDeleteFunctionalitiesForUserReports -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:in.v2solutions.hybrid.testcases.HLT_08_Verify_AddViewEditSearchAndDeleteFunctionalitiesForUserReports@4e50c791]" name="afterTest" is-config="true" duration-ms="94" started-at="2019-02-01T04:00:44Z" finished-at="2019-02-01T04:00:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="beforeTest(java.lang.String)[pri:0, instance:in.v2solutions.hybrid.testcases.HLT_08_Verify_AddViewEditSearchAndDeleteFunctionalitiesForUserReports@4e50c791]" name="beforeTest" is-config="true" duration-ms="0" started-at="2019-02-01T04:00:44Z" finished-at="2019-02-01T04:00:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[HULFT_bulid5667--All_Regression]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+      </class> <!-- in.v2solutions.hybrid.testcases.HLT_08_Verify_AddViewEditSearchAndDeleteFunctionalitiesForUserReports -->
+    </test> <!-- HLT_08_Verify_AddViewEditSearchAndDeleteFunctionalitiesForUserReports -->
+    <test name="HLT_09_Verify_SearchDetails_TransferHistory" duration-ms="244392" started-at="2019-01-31T22:30:44Z" finished-at="2019-01-31T22:34:48Z">
+      <class name="in.v2solutions.hybrid.testcases.HLT_09_Verify_SearchDetails_TransferHistory">
+        <test-method status="PASS" signature="beforeTest(java.lang.String)[pri:0, instance:in.v2solutions.hybrid.testcases.HLT_09_Verify_SearchDetails_TransferHistory@65d09a04]" name="beforeTest" is-config="true" duration-ms="0" started-at="2019-02-01T04:00:44Z" finished-at="2019-02-01T04:00:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[HULFT_bulid5667--All_Regression]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="verify_SearchDetails_TransferHistory(java.util.Hashtable)[pri:0, instance:in.v2solutions.hybrid.testcases.HLT_09_Verify_SearchDetails_TransferHistory@65d09a04]" name="verify_SearchDetails_TransferHistory" duration-ms="243507" started-at="2019-02-01T04:00:44Z" data-provider="getTestData" finished-at="2019-02-01T04:04:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{RunMode=Y}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_SearchDetails_TransferHistory -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:in.v2solutions.hybrid.testcases.HLT_09_Verify_SearchDetails_TransferHistory@65d09a04]" name="afterTest" is-config="true" duration-ms="885" started-at="2019-02-01T04:04:47Z" finished-at="2019-02-01T04:04:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- in.v2solutions.hybrid.testcases.HLT_09_Verify_SearchDetails_TransferHistory -->
+    </test> <!-- HLT_09_Verify_SearchDetails_TransferHistory -->
+    <test name="HLT_11_Verify_ManageTransferActions" duration-ms="109" started-at="2019-01-31T22:34:48Z" finished-at="2019-01-31T22:34:48Z">
+      <class name="in.v2solutions.hybrid.testcases.HLT_11_Verify_ManageTransferActions">
+        <test-method status="PASS" signature="beforeTest(java.lang.String)[pri:0, instance:in.v2solutions.hybrid.testcases.HLT_11_Verify_ManageTransferActions@399c4be1]" name="beforeTest" is-config="true" duration-ms="15" started-at="2019-02-01T04:04:48Z" finished-at="2019-02-01T04:04:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[HULFT_bulid5667--All_Regression]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:in.v2solutions.hybrid.testcases.HLT_11_Verify_ManageTransferActions@399c4be1]" name="afterTest" is-config="true" duration-ms="94" started-at="2019-02-01T04:04:48Z" finished-at="2019-02-01T04:04:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="SKIP" signature="verify_ManageTransferActions(java.util.Hashtable)[pri:0, instance:in.v2solutions.hybrid.testcases.HLT_11_Verify_ManageTransferActions@399c4be1]" name="verify_ManageTransferActions" duration-ms="0" started-at="2019-02-01T04:04:48Z" data-provider="getTestData" finished-at="2019-02-01T04:04:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{RunMode=Y}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[This Test Script is Skipped as it's RunMode is Marked as NO]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: This Test Script is Skipped as it's RunMode is Marked as NO
+	at in.v2solutions.hybrid.testcases.HLT_11_Verify_ManageTransferActions.verify_ManageTransferActions(HLT_11_Verify_ManageTransferActions.java:52)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.TestNG.privateMain(TestNG.java:1442)
+	at org.testng.TestNG.main(TestNG.java:1411)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_ManageTransferActions -->
+      </class> <!-- in.v2solutions.hybrid.testcases.HLT_11_Verify_ManageTransferActions -->
+    </test> <!-- HLT_11_Verify_ManageTransferActions -->
+    <test name="HLT_12_Verify_SearchDetails_ManageTransfers" duration-ms="141" started-at="2019-01-31T22:34:48Z" finished-at="2019-01-31T22:34:48Z">
+      <class name="in.v2solutions.hybrid.testcases.HLT_12_Verify_SearchDetails_ManageTransfers">
+        <test-method status="PASS" signature="beforeTest(java.lang.String)[pri:0, instance:in.v2solutions.hybrid.testcases.HLT_12_Verify_SearchDetails_ManageTransfers@7ee8290b]" name="beforeTest" is-config="true" duration-ms="16" started-at="2019-02-01T04:04:48Z" finished-at="2019-02-01T04:04:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[HULFT_bulid5667--All_Regression]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="SKIP" signature="verify_SearchDetails_ManageTransfers(java.util.Hashtable)[pri:0, instance:in.v2solutions.hybrid.testcases.HLT_12_Verify_SearchDetails_ManageTransfers@7ee8290b]" name="verify_SearchDetails_ManageTransfers" duration-ms="0" started-at="2019-02-01T04:04:48Z" data-provider="getTestData" finished-at="2019-02-01T04:04:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{RunMode=Y}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[This Test Script is Skipped as it's RunMode is Marked as NO]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: This Test Script is Skipped as it's RunMode is Marked as NO
+	at in.v2solutions.hybrid.testcases.HLT_12_Verify_SearchDetails_ManageTransfers.verify_SearchDetails_ManageTransfers(HLT_12_Verify_SearchDetails_ManageTransfers.java:52)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.TestNG.privateMain(TestNG.java:1442)
+	at org.testng.TestNG.main(TestNG.java:1411)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_SearchDetails_ManageTransfers -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:in.v2solutions.hybrid.testcases.HLT_12_Verify_SearchDetails_ManageTransfers@7ee8290b]" name="afterTest" is-config="true" duration-ms="125" started-at="2019-02-01T04:04:48Z" finished-at="2019-02-01T04:04:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- in.v2solutions.hybrid.testcases.HLT_12_Verify_SearchDetails_ManageTransfers -->
+    </test> <!-- HLT_12_Verify_SearchDetails_ManageTransfers -->
+    <test name="HLT_15_Verify_AddExternalHostTransfer" duration-ms="110" started-at="2019-01-31T22:34:48Z" finished-at="2019-01-31T22:34:48Z">
+      <class name="in.v2solutions.hybrid.testcases.HLT_15_Verify_AddExternalHostTransfer">
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:in.v2solutions.hybrid.testcases.HLT_15_Verify_AddExternalHostTransfer@2e377400]" name="afterTest" is-config="true" duration-ms="110" started-at="2019-02-01T04:04:48Z" finished-at="2019-02-01T04:04:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="SKIP" signature="verify_AddExternalHostTransfer(java.util.Hashtable)[pri:0, instance:in.v2solutions.hybrid.testcases.HLT_15_Verify_AddExternalHostTransfer@2e377400]" name="verify_AddExternalHostTransfer" duration-ms="0" started-at="2019-02-01T04:04:48Z" data-provider="getTestData" finished-at="2019-02-01T04:04:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{RunMode=Y}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[This Test Script is Skipped as it's RunMode is Marked as NO]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: This Test Script is Skipped as it's RunMode is Marked as NO
+	at in.v2solutions.hybrid.testcases.HLT_15_Verify_AddExternalHostTransfer.verify_AddExternalHostTransfer(HLT_15_Verify_AddExternalHostTransfer.java:52)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.TestNG.privateMain(TestNG.java:1442)
+	at org.testng.TestNG.main(TestNG.java:1411)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_AddExternalHostTransfer -->
+        <test-method status="PASS" signature="beforeTest(java.lang.String)[pri:0, instance:in.v2solutions.hybrid.testcases.HLT_15_Verify_AddExternalHostTransfer@2e377400]" name="beforeTest" is-config="true" duration-ms="0" started-at="2019-02-01T04:04:48Z" finished-at="2019-02-01T04:04:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[HULFT_bulid5667--All_Regression]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+      </class> <!-- in.v2solutions.hybrid.testcases.HLT_15_Verify_AddExternalHostTransfer -->
+    </test> <!-- HLT_15_Verify_AddExternalHostTransfer -->
+    <test name="HLT_16_Verify_SearchOperationForDatabaseListAndArchiveLogs" duration-ms="93" started-at="2019-01-31T22:34:48Z" finished-at="2019-01-31T22:34:49Z">
+      <class name="in.v2solutions.hybrid.testcases.HLT_16_Verify_SearchOperationForDatabaseListAndArchiveLogs">
+        <test-method status="SKIP" signature="verify_SearchOperationForDatabaseListAndArchiveLogs(java.util.Hashtable)[pri:0, instance:in.v2solutions.hybrid.testcases.HLT_16_Verify_SearchOperationForDatabaseListAndArchiveLogs@e4487af]" name="verify_SearchOperationForDatabaseListAndArchiveLogs" duration-ms="0" started-at="2019-02-01T04:04:48Z" data-provider="getTestData" finished-at="2019-02-01T04:04:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{RunMode=Y}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[This Test Script is Skipped as it's RunMode is Marked as NO]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: This Test Script is Skipped as it's RunMode is Marked as NO
+	at in.v2solutions.hybrid.testcases.HLT_16_Verify_SearchOperationForDatabaseListAndArchiveLogs.verify_SearchOperationForDatabaseListAndArchiveLogs(HLT_16_Verify_SearchOperationForDatabaseListAndArchiveLogs.java:52)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.TestNG.privateMain(TestNG.java:1442)
+	at org.testng.TestNG.main(TestNG.java:1411)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_SearchOperationForDatabaseListAndArchiveLogs -->
+        <test-method status="PASS" signature="beforeTest(java.lang.String)[pri:0, instance:in.v2solutions.hybrid.testcases.HLT_16_Verify_SearchOperationForDatabaseListAndArchiveLogs@e4487af]" name="beforeTest" is-config="true" duration-ms="0" started-at="2019-02-01T04:04:48Z" finished-at="2019-02-01T04:04:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[HULFT_bulid5667--All_Regression]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:in.v2solutions.hybrid.testcases.HLT_16_Verify_SearchOperationForDatabaseListAndArchiveLogs@e4487af]" name="afterTest" is-config="true" duration-ms="93" started-at="2019-02-01T04:04:48Z" finished-at="2019-02-01T04:04:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- in.v2solutions.hybrid.testcases.HLT_16_Verify_SearchOperationForDatabaseListAndArchiveLogs -->
+    </test> <!-- HLT_16_Verify_SearchOperationForDatabaseListAndArchiveLogs -->
+    <test name="HLT_17_Verify_AdministratorRolePermissions" duration-ms="110" started-at="2019-01-31T22:34:49Z" finished-at="2019-01-31T22:34:49Z">
+      <class name="in.v2solutions.hybrid.testcases.HLT_17_Verify_AdministratorRolePermissions">
+        <test-method status="PASS" signature="beforeTest(java.lang.String)[pri:0, instance:in.v2solutions.hybrid.testcases.HLT_17_Verify_AdministratorRolePermissions@4c309d4d]" name="beforeTest" is-config="true" duration-ms="16" started-at="2019-02-01T04:04:49Z" finished-at="2019-02-01T04:04:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[HULFT_bulid5667--All_Regression]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="SKIP" signature="verify_AdministratorRolePermissions(java.util.Hashtable)[pri:0, instance:in.v2solutions.hybrid.testcases.HLT_17_Verify_AdministratorRolePermissions@4c309d4d]" name="verify_AdministratorRolePermissions" duration-ms="0" started-at="2019-02-01T04:04:49Z" data-provider="getTestData" finished-at="2019-02-01T04:04:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{RunMode=Y}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[This Test Script is Skipped as it's RunMode is Marked as NO]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: This Test Script is Skipped as it's RunMode is Marked as NO
+	at in.v2solutions.hybrid.testcases.HLT_17_Verify_AdministratorRolePermissions.verify_AdministratorRolePermissions(HLT_17_Verify_AdministratorRolePermissions.java:52)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.TestNG.privateMain(TestNG.java:1442)
+	at org.testng.TestNG.main(TestNG.java:1411)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_AdministratorRolePermissions -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:in.v2solutions.hybrid.testcases.HLT_17_Verify_AdministratorRolePermissions@4c309d4d]" name="afterTest" is-config="true" duration-ms="94" started-at="2019-02-01T04:04:49Z" finished-at="2019-02-01T04:04:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- in.v2solutions.hybrid.testcases.HLT_17_Verify_AdministratorRolePermissions -->
+    </test> <!-- HLT_17_Verify_AdministratorRolePermissions -->
+    <test name="HLT_18_Verify_UserRolePermissions" duration-ms="109" started-at="2019-01-31T22:34:49Z" finished-at="2019-01-31T22:34:49Z">
+      <class name="in.v2solutions.hybrid.testcases.HLT_18_Verify_UserRolePermissions">
+        <test-method status="PASS" signature="beforeTest(java.lang.String)[pri:0, instance:in.v2solutions.hybrid.testcases.HLT_18_Verify_UserRolePermissions@5c90e579]" name="beforeTest" is-config="true" duration-ms="0" started-at="2019-02-01T04:04:49Z" finished-at="2019-02-01T04:04:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[HULFT_bulid5667--All_Regression]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="SKIP" signature="verify_UserRolePermissions(java.util.Hashtable)[pri:0, instance:in.v2solutions.hybrid.testcases.HLT_18_Verify_UserRolePermissions@5c90e579]" name="verify_UserRolePermissions" duration-ms="15" started-at="2019-02-01T04:04:49Z" data-provider="getTestData" finished-at="2019-02-01T04:04:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{RunMode=Y}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[This Test Script is Skipped as it's RunMode is Marked as NO]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: This Test Script is Skipped as it's RunMode is Marked as NO
+	at in.v2solutions.hybrid.testcases.HLT_18_Verify_UserRolePermissions.verify_UserRolePermissions(HLT_18_Verify_UserRolePermissions.java:52)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.TestNG.privateMain(TestNG.java:1442)
+	at org.testng.TestNG.main(TestNG.java:1411)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_UserRolePermissions -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:in.v2solutions.hybrid.testcases.HLT_18_Verify_UserRolePermissions@5c90e579]" name="afterTest" is-config="true" duration-ms="94" started-at="2019-02-01T04:04:49Z" finished-at="2019-02-01T04:04:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- in.v2solutions.hybrid.testcases.HLT_18_Verify_UserRolePermissions -->
+    </test> <!-- HLT_18_Verify_UserRolePermissions -->
+    <test name="HLT_19_Verify_SuperuserRolePermissions" duration-ms="94" started-at="2019-01-31T22:34:49Z" finished-at="2019-01-31T22:34:49Z">
+      <class name="in.v2solutions.hybrid.testcases.HLT_19_Verify_SuperuserRolePermissions">
+        <test-method status="PASS" signature="beforeTest(java.lang.String)[pri:0, instance:in.v2solutions.hybrid.testcases.HLT_19_Verify_SuperuserRolePermissions@2d2ffcb7]" name="beforeTest" is-config="true" duration-ms="16" started-at="2019-02-01T04:04:49Z" finished-at="2019-02-01T04:04:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[HULFT_bulid5667--All_Regression]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:in.v2solutions.hybrid.testcases.HLT_19_Verify_SuperuserRolePermissions@2d2ffcb7]" name="afterTest" is-config="true" duration-ms="78" started-at="2019-02-01T04:04:49Z" finished-at="2019-02-01T04:04:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="SKIP" signature="verify_SuperuserRolePermissions(java.util.Hashtable)[pri:0, instance:in.v2solutions.hybrid.testcases.HLT_19_Verify_SuperuserRolePermissions@2d2ffcb7]" name="verify_SuperuserRolePermissions" duration-ms="0" started-at="2019-02-01T04:04:49Z" data-provider="getTestData" finished-at="2019-02-01T04:04:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{RunMode=Y}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[This Test Script is Skipped as it's RunMode is Marked as NO]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: This Test Script is Skipped as it's RunMode is Marked as NO
+	at in.v2solutions.hybrid.testcases.HLT_19_Verify_SuperuserRolePermissions.verify_SuperuserRolePermissions(HLT_19_Verify_SuperuserRolePermissions.java:52)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.TestNG.privateMain(TestNG.java:1442)
+	at org.testng.TestNG.main(TestNG.java:1411)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_SuperuserRolePermissions -->
+      </class> <!-- in.v2solutions.hybrid.testcases.HLT_19_Verify_SuperuserRolePermissions -->
+    </test> <!-- HLT_19_Verify_SuperuserRolePermissions -->
+    <test name="HLT_21_Verify_ScheduleTransfer" duration-ms="94" started-at="2019-01-31T22:34:49Z" finished-at="2019-01-31T22:34:49Z">
+      <class name="in.v2solutions.hybrid.testcases.HLT_21_Verify_ScheduleTransfer">
+        <test-method status="SKIP" signature="verify_ScheduleTransfer(java.util.Hashtable)[pri:0, instance:in.v2solutions.hybrid.testcases.HLT_21_Verify_ScheduleTransfer@5f8edcc5]" name="verify_ScheduleTransfer" duration-ms="0" started-at="2019-02-01T04:04:49Z" data-provider="getTestData" finished-at="2019-02-01T04:04:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{RunMode=Y}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[This Test Script is Skipped as it's RunMode is Marked as NO]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: This Test Script is Skipped as it's RunMode is Marked as NO
+	at in.v2solutions.hybrid.testcases.HLT_21_Verify_ScheduleTransfer.verify_ScheduleTransfer(HLT_21_Verify_ScheduleTransfer.java:52)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.TestNG.privateMain(TestNG.java:1442)
+	at org.testng.TestNG.main(TestNG.java:1411)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_ScheduleTransfer -->
+        <test-method status="PASS" signature="beforeTest(java.lang.String)[pri:0, instance:in.v2solutions.hybrid.testcases.HLT_21_Verify_ScheduleTransfer@5f8edcc5]" name="beforeTest" is-config="true" duration-ms="0" started-at="2019-02-01T04:04:49Z" finished-at="2019-02-01T04:04:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[HULFT_bulid5667--All_Regression]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:in.v2solutions.hybrid.testcases.HLT_21_Verify_ScheduleTransfer@5f8edcc5]" name="afterTest" is-config="true" duration-ms="94" started-at="2019-02-01T04:04:49Z" finished-at="2019-02-01T04:04:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- in.v2solutions.hybrid.testcases.HLT_21_Verify_ScheduleTransfer -->
+    </test> <!-- HLT_21_Verify_ScheduleTransfer -->
+    <test name="HLT_22_Verify_ProfileActions" duration-ms="78" started-at="2019-01-31T22:34:49Z" finished-at="2019-01-31T22:34:49Z">
+      <class name="in.v2solutions.hybrid.testcases.HLT_22_Verify_ProfileActions">
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:in.v2solutions.hybrid.testcases.HLT_22_Verify_ProfileActions@6e509ffa]" name="afterTest" is-config="true" duration-ms="78" started-at="2019-02-01T04:04:49Z" finished-at="2019-02-01T04:04:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="beforeTest(java.lang.String)[pri:0, instance:in.v2solutions.hybrid.testcases.HLT_22_Verify_ProfileActions@6e509ffa]" name="beforeTest" is-config="true" duration-ms="0" started-at="2019-02-01T04:04:49Z" finished-at="2019-02-01T04:04:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[HULFT_bulid5667--All_Regression]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="SKIP" signature="verify_ProfileActions(java.util.Hashtable)[pri:0, instance:in.v2solutions.hybrid.testcases.HLT_22_Verify_ProfileActions@6e509ffa]" name="verify_ProfileActions" duration-ms="0" started-at="2019-02-01T04:04:49Z" data-provider="getTestData" finished-at="2019-02-01T04:04:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{RunMode=Y}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[This Test Script is Skipped as it's RunMode is Marked as NO]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: This Test Script is Skipped as it's RunMode is Marked as NO
+	at in.v2solutions.hybrid.testcases.HLT_22_Verify_ProfileActions.verify_ProfileActions(HLT_22_Verify_ProfileActions.java:52)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.TestNG.privateMain(TestNG.java:1442)
+	at org.testng.TestNG.main(TestNG.java:1411)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_ProfileActions -->
+      </class> <!-- in.v2solutions.hybrid.testcases.HLT_22_Verify_ProfileActions -->
+    </test> <!-- HLT_22_Verify_ProfileActions -->
+    <test name="HLT_23_Verify_ProductsLicenses" duration-ms="79" started-at="2019-01-31T22:34:49Z" finished-at="2019-01-31T22:34:49Z">
+      <class name="in.v2solutions.hybrid.testcases.HLT_23_Verify_ProductsLicenses">
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:in.v2solutions.hybrid.testcases.HLT_23_Verify_ProductsLicenses@313b2ea6]" name="afterTest" is-config="true" duration-ms="79" started-at="2019-02-01T04:04:49Z" finished-at="2019-02-01T04:04:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="beforeTest(java.lang.String)[pri:0, instance:in.v2solutions.hybrid.testcases.HLT_23_Verify_ProductsLicenses@313b2ea6]" name="beforeTest" is-config="true" duration-ms="0" started-at="2019-02-01T04:04:49Z" finished-at="2019-02-01T04:04:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[HULFT_bulid5667--All_Regression]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="SKIP" signature="verify_ProductsLicenses(java.util.Hashtable)[pri:0, instance:in.v2solutions.hybrid.testcases.HLT_23_Verify_ProductsLicenses@313b2ea6]" name="verify_ProductsLicenses" duration-ms="0" started-at="2019-02-01T04:04:49Z" data-provider="getTestData" finished-at="2019-02-01T04:04:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{RunMode=Y}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[This Test Script is Skipped as it's RunMode is Marked as NO]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: This Test Script is Skipped as it's RunMode is Marked as NO
+	at in.v2solutions.hybrid.testcases.HLT_23_Verify_ProductsLicenses.verify_ProductsLicenses(HLT_23_Verify_ProductsLicenses.java:52)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.TestNG.privateMain(TestNG.java:1442)
+	at org.testng.TestNG.main(TestNG.java:1411)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_ProductsLicenses -->
+      </class> <!-- in.v2solutions.hybrid.testcases.HLT_23_Verify_ProductsLicenses -->
+    </test> <!-- HLT_23_Verify_ProductsLicenses -->
+    <test name="HLT_28_Verify_SelectUnselectSFTPServeronHosts" duration-ms="93" started-at="2019-01-31T22:34:49Z" finished-at="2019-01-31T22:34:49Z">
+      <class name="in.v2solutions.hybrid.testcases.HLT_28_Verify_SelectUnselectSFTPServeronHosts">
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:in.v2solutions.hybrid.testcases.HLT_28_Verify_SelectUnselectSFTPServeronHosts@610f7aa]" name="afterTest" is-config="true" duration-ms="93" started-at="2019-02-01T04:04:49Z" finished-at="2019-02-01T04:04:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="SKIP" signature="verify_SelectUnselectSFTPServeronHosts(java.util.Hashtable)[pri:0, instance:in.v2solutions.hybrid.testcases.HLT_28_Verify_SelectUnselectSFTPServeronHosts@610f7aa]" name="verify_SelectUnselectSFTPServeronHosts" duration-ms="0" started-at="2019-02-01T04:04:49Z" data-provider="getTestData" finished-at="2019-02-01T04:04:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{RunMode=Y}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[This Test Script is Skipped as it's RunMode is Marked as NO]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: This Test Script is Skipped as it's RunMode is Marked as NO
+	at in.v2solutions.hybrid.testcases.HLT_28_Verify_SelectUnselectSFTPServeronHosts.verify_SelectUnselectSFTPServeronHosts(HLT_28_Verify_SelectUnselectSFTPServeronHosts.java:52)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.TestNG.privateMain(TestNG.java:1442)
+	at org.testng.TestNG.main(TestNG.java:1411)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_SelectUnselectSFTPServeronHosts -->
+        <test-method status="PASS" signature="beforeTest(java.lang.String)[pri:0, instance:in.v2solutions.hybrid.testcases.HLT_28_Verify_SelectUnselectSFTPServeronHosts@610f7aa]" name="beforeTest" is-config="true" duration-ms="0" started-at="2019-02-01T04:04:49Z" finished-at="2019-02-01T04:04:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[HULFT_bulid5667--All_Regression]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+      </class> <!-- in.v2solutions.hybrid.testcases.HLT_28_Verify_SelectUnselectSFTPServeronHosts -->
+    </test> <!-- HLT_28_Verify_SelectUnselectSFTPServeronHosts -->
+    <test name="HLT_29_Verify_SFTPTransfer" duration-ms="85" started-at="2019-01-31T22:34:49Z" finished-at="2019-01-31T22:34:49Z">
+      <class name="in.v2solutions.hybrid.testcases.HLT_29_Verify_SFTPTransfer">
+        <test-method status="PASS" signature="beforeTest(java.lang.String)[pri:0, instance:in.v2solutions.hybrid.testcases.HLT_29_Verify_SFTPTransfer@68567e20]" name="beforeTest" is-config="true" duration-ms="0" started-at="2019-02-01T04:04:49Z" finished-at="2019-02-01T04:04:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[HULFT_bulid5667--All_Regression]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:in.v2solutions.hybrid.testcases.HLT_29_Verify_SFTPTransfer@68567e20]" name="afterTest" is-config="true" duration-ms="85" started-at="2019-02-01T04:04:49Z" finished-at="2019-02-01T04:04:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="SKIP" signature="verify_SFTPTransfer(java.util.Hashtable)[pri:0, instance:in.v2solutions.hybrid.testcases.HLT_29_Verify_SFTPTransfer@68567e20]" name="verify_SFTPTransfer" duration-ms="0" started-at="2019-02-01T04:04:49Z" data-provider="getTestData" finished-at="2019-02-01T04:04:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{RunMode=Y}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[This Test Script is Skipped as it's RunMode is Marked as NO]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: This Test Script is Skipped as it's RunMode is Marked as NO
+	at in.v2solutions.hybrid.testcases.HLT_29_Verify_SFTPTransfer.verify_SFTPTransfer(HLT_29_Verify_SFTPTransfer.java:52)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.TestNG.privateMain(TestNG.java:1442)
+	at org.testng.TestNG.main(TestNG.java:1411)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_SFTPTransfer -->
+      </class> <!-- in.v2solutions.hybrid.testcases.HLT_29_Verify_SFTPTransfer -->
+    </test> <!-- HLT_29_Verify_SFTPTransfer -->
+    <test name="HLT_31_Verify_ProductsLicensesInsatllations" duration-ms="63" started-at="2019-01-31T22:34:49Z" finished-at="2019-01-31T22:34:49Z">
+      <class name="in.v2solutions.hybrid.testcases.HLT_31_Verify_ProductsLicensesInsatllations">
+        <test-method status="PASS" signature="beforeTest(java.lang.String)[pri:0, instance:in.v2solutions.hybrid.testcases.HLT_31_Verify_ProductsLicensesInsatllations@672872e1]" name="beforeTest" is-config="true" duration-ms="0" started-at="2019-02-01T04:04:49Z" finished-at="2019-02-01T04:04:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[HULFT_bulid5667--All_Regression]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:in.v2solutions.hybrid.testcases.HLT_31_Verify_ProductsLicensesInsatllations@672872e1]" name="afterTest" is-config="true" duration-ms="63" started-at="2019-02-01T04:04:49Z" finished-at="2019-02-01T04:04:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="SKIP" signature="verify_ProductsLicensesInsatllations(java.util.Hashtable)[pri:0, instance:in.v2solutions.hybrid.testcases.HLT_31_Verify_ProductsLicensesInsatllations@672872e1]" name="verify_ProductsLicensesInsatllations" duration-ms="0" started-at="2019-02-01T04:04:49Z" data-provider="getTestData" finished-at="2019-02-01T04:04:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{RunMode=Y}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[This Test Script is Skipped as it's RunMode is Marked as NO]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: This Test Script is Skipped as it's RunMode is Marked as NO
+	at in.v2solutions.hybrid.testcases.HLT_31_Verify_ProductsLicensesInsatllations.verify_ProductsLicensesInsatllations(HLT_31_Verify_ProductsLicensesInsatllations.java:52)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.TestNG.privateMain(TestNG.java:1442)
+	at org.testng.TestNG.main(TestNG.java:1411)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_ProductsLicensesInsatllations -->
+      </class> <!-- in.v2solutions.hybrid.testcases.HLT_31_Verify_ProductsLicensesInsatllations -->
+    </test> <!-- HLT_31_Verify_ProductsLicensesInsatllations -->
+    <test name="HLT_32_Verify_GlobalSearchDeatilsTransferHistory" duration-ms="78" started-at="2019-01-31T22:34:49Z" finished-at="2019-01-31T22:34:49Z">
+      <class name="in.v2solutions.hybrid.testcases.HLT_32_Verify_GlobalSearchDeatilsTransferHistory">
+        <test-method status="PASS" signature="beforeTest(java.lang.String)[pri:0, instance:in.v2solutions.hybrid.testcases.HLT_32_Verify_GlobalSearchDeatilsTransferHistory@484970b0]" name="beforeTest" is-config="true" duration-ms="16" started-at="2019-02-01T04:04:49Z" finished-at="2019-02-01T04:04:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[HULFT_bulid5667--All_Regression]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:in.v2solutions.hybrid.testcases.HLT_32_Verify_GlobalSearchDeatilsTransferHistory@484970b0]" name="afterTest" is-config="true" duration-ms="62" started-at="2019-02-01T04:04:49Z" finished-at="2019-02-01T04:04:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="SKIP" signature="verify_GlobalSearchDeatilsTransferHistory(java.util.Hashtable)[pri:0, instance:in.v2solutions.hybrid.testcases.HLT_32_Verify_GlobalSearchDeatilsTransferHistory@484970b0]" name="verify_GlobalSearchDeatilsTransferHistory" duration-ms="0" started-at="2019-02-01T04:04:49Z" data-provider="getTestData" finished-at="2019-02-01T04:04:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{RunMode=Y}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[This Test Script is Skipped as it's RunMode is Marked as NO]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: This Test Script is Skipped as it's RunMode is Marked as NO
+	at in.v2solutions.hybrid.testcases.HLT_32_Verify_GlobalSearchDeatilsTransferHistory.verify_GlobalSearchDeatilsTransferHistory(HLT_32_Verify_GlobalSearchDeatilsTransferHistory.java:52)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.TestNG.privateMain(TestNG.java:1442)
+	at org.testng.TestNG.main(TestNG.java:1411)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_GlobalSearchDeatilsTransferHistory -->
+      </class> <!-- in.v2solutions.hybrid.testcases.HLT_32_Verify_GlobalSearchDeatilsTransferHistory -->
+    </test> <!-- HLT_32_Verify_GlobalSearchDeatilsTransferHistory -->
+    <test name="HLT_33_Verify_MetaDatafileForTransfers" duration-ms="62" started-at="2019-01-31T22:34:49Z" finished-at="2019-01-31T22:34:49Z">
+      <class name="in.v2solutions.hybrid.testcases.HLT_33_Verify_MetaDatafileForTransfers">
+        <test-method status="SKIP" signature="verify_MetaDatafileForTransfers(java.util.Hashtable)[pri:0, instance:in.v2solutions.hybrid.testcases.HLT_33_Verify_MetaDatafileForTransfers@60015ef5]" name="verify_MetaDatafileForTransfers" duration-ms="0" started-at="2019-02-01T04:04:49Z" data-provider="getTestData" finished-at="2019-02-01T04:04:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{RunMode=Y}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[This Test Script is Skipped as it's RunMode is Marked as NO]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: This Test Script is Skipped as it's RunMode is Marked as NO
+	at in.v2solutions.hybrid.testcases.HLT_33_Verify_MetaDatafileForTransfers.verify_MetaDatafileForTransfers(HLT_33_Verify_MetaDatafileForTransfers.java:52)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.TestNG.privateMain(TestNG.java:1442)
+	at org.testng.TestNG.main(TestNG.java:1411)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_MetaDatafileForTransfers -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:in.v2solutions.hybrid.testcases.HLT_33_Verify_MetaDatafileForTransfers@60015ef5]" name="afterTest" is-config="true" duration-ms="62" started-at="2019-02-01T04:04:49Z" finished-at="2019-02-01T04:04:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="beforeTest(java.lang.String)[pri:0, instance:in.v2solutions.hybrid.testcases.HLT_33_Verify_MetaDatafileForTransfers@60015ef5]" name="beforeTest" is-config="true" duration-ms="0" started-at="2019-02-01T04:04:49Z" finished-at="2019-02-01T04:04:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[HULFT_bulid5667--All_Regression]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+      </class> <!-- in.v2solutions.hybrid.testcases.HLT_33_Verify_MetaDatafileForTransfers -->
+    </test> <!-- HLT_33_Verify_MetaDatafileForTransfers -->
+    <test name="HLT_34_Verify_SearchFunctionalityWorksForUserActions" duration-ms="63" started-at="2019-01-31T22:34:49Z" finished-at="2019-01-31T22:34:50Z">
+      <class name="in.v2solutions.hybrid.testcases.HLT_34_Verify_SearchFunctionalityWorksForUserActions">
+        <test-method status="SKIP" signature="verify_SearchFunctionalityWorksForUserActions(java.util.Hashtable)[pri:0, instance:in.v2solutions.hybrid.testcases.HLT_34_Verify_SearchFunctionalityWorksForUserActions@2a266d09]" name="verify_SearchFunctionalityWorksForUserActions" duration-ms="0" started-at="2019-02-01T04:04:49Z" data-provider="getTestData" finished-at="2019-02-01T04:04:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{RunMode=Y}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[This Test Script is Skipped as it's RunMode is Marked as NO]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: This Test Script is Skipped as it's RunMode is Marked as NO
+	at in.v2solutions.hybrid.testcases.HLT_34_Verify_SearchFunctionalityWorksForUserActions.verify_SearchFunctionalityWorksForUserActions(HLT_34_Verify_SearchFunctionalityWorksForUserActions.java:52)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.TestNG.privateMain(TestNG.java:1442)
+	at org.testng.TestNG.main(TestNG.java:1411)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_SearchFunctionalityWorksForUserActions -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:in.v2solutions.hybrid.testcases.HLT_34_Verify_SearchFunctionalityWorksForUserActions@2a266d09]" name="afterTest" is-config="true" duration-ms="63" started-at="2019-02-01T04:04:49Z" finished-at="2019-02-01T04:04:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="beforeTest(java.lang.String)[pri:0, instance:in.v2solutions.hybrid.testcases.HLT_34_Verify_SearchFunctionalityWorksForUserActions@2a266d09]" name="beforeTest" is-config="true" duration-ms="0" started-at="2019-02-01T04:04:49Z" finished-at="2019-02-01T04:04:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[HULFT_bulid5667--All_Regression]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+      </class> <!-- in.v2solutions.hybrid.testcases.HLT_34_Verify_SearchFunctionalityWorksForUserActions -->
+    </test> <!-- HLT_34_Verify_SearchFunctionalityWorksForUserActions -->
+    <test name="HLT_36_Verify_SystemNotifications" duration-ms="94" started-at="2019-01-31T22:34:50Z" finished-at="2019-01-31T22:34:50Z">
+      <class name="in.v2solutions.hybrid.testcases.HLT_36_Verify_SystemNotifications">
+        <test-method status="SKIP" signature="verify_SystemNotifications(java.util.Hashtable)[pri:0, instance:in.v2solutions.hybrid.testcases.HLT_36_Verify_SystemNotifications@36b4fe2a]" name="verify_SystemNotifications" duration-ms="0" started-at="2019-02-01T04:04:50Z" data-provider="getTestData" finished-at="2019-02-01T04:04:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{RunMode=Y}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[This Test Script is Skipped as it's RunMode is Marked as NO]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: This Test Script is Skipped as it's RunMode is Marked as NO
+	at in.v2solutions.hybrid.testcases.HLT_36_Verify_SystemNotifications.verify_SystemNotifications(HLT_36_Verify_SystemNotifications.java:52)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.TestNG.privateMain(TestNG.java:1442)
+	at org.testng.TestNG.main(TestNG.java:1411)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_SystemNotifications -->
+        <test-method status="PASS" signature="beforeTest(java.lang.String)[pri:0, instance:in.v2solutions.hybrid.testcases.HLT_36_Verify_SystemNotifications@36b4fe2a]" name="beforeTest" is-config="true" duration-ms="0" started-at="2019-02-01T04:04:50Z" finished-at="2019-02-01T04:04:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[HULFT_bulid5667--All_Regression]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:in.v2solutions.hybrid.testcases.HLT_36_Verify_SystemNotifications@36b4fe2a]" name="afterTest" is-config="true" duration-ms="94" started-at="2019-02-01T04:04:50Z" finished-at="2019-02-01T04:04:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- in.v2solutions.hybrid.testcases.HLT_36_Verify_SystemNotifications -->
+    </test> <!-- HLT_36_Verify_SystemNotifications -->
+    <test name="HLT_37_Verify_AssignUnassignHostToExternalUserAndVerifyDeleteAction" duration-ms="63" started-at="2019-01-31T22:34:50Z" finished-at="2019-01-31T22:34:50Z">
+      <class name="in.v2solutions.hybrid.testcases.HLT_37_Verify_AssignUnassignHostToExternalUserAndVerifyDeleteAction">
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:in.v2solutions.hybrid.testcases.HLT_37_Verify_AssignUnassignHostToExternalUserAndVerifyDeleteAction@71c3b41]" name="afterTest" is-config="true" duration-ms="63" started-at="2019-02-01T04:04:50Z" finished-at="2019-02-01T04:04:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="beforeTest(java.lang.String)[pri:0, instance:in.v2solutions.hybrid.testcases.HLT_37_Verify_AssignUnassignHostToExternalUserAndVerifyDeleteAction@71c3b41]" name="beforeTest" is-config="true" duration-ms="0" started-at="2019-02-01T04:04:50Z" finished-at="2019-02-01T04:04:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[HULFT_bulid5667--All_Regression]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="SKIP" signature="verify_AssignUnassignHostToExternalUserAnd(java.util.Hashtable)[pri:0, instance:in.v2solutions.hybrid.testcases.HLT_37_Verify_AssignUnassignHostToExternalUserAndVerifyDeleteAction@71c3b41]" name="verify_AssignUnassignHostToExternalUserAnd" duration-ms="0" started-at="2019-02-01T04:04:50Z" data-provider="getTestData" finished-at="2019-02-01T04:04:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{RunMode=Y}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[This Test Script is Skipped as it's RunMode is Marked as NO]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: This Test Script is Skipped as it's RunMode is Marked as NO
+	at in.v2solutions.hybrid.testcases.HLT_37_Verify_AssignUnassignHostToExternalUserAndVerifyDeleteAction.verify_AssignUnassignHostToExternalUserAnd(HLT_37_Verify_AssignUnassignHostToExternalUserAndVerifyDeleteAction.java:52)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.TestNG.privateMain(TestNG.java:1442)
+	at org.testng.TestNG.main(TestNG.java:1411)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_AssignUnassignHostToExternalUserAnd -->
+      </class> <!-- in.v2solutions.hybrid.testcases.HLT_37_Verify_AssignUnassignHostToExternalUserAndVerifyDeleteAction -->
+    </test> <!-- HLT_37_Verify_AssignUnassignHostToExternalUserAndVerifyDeleteAction -->
+    <test name="HLT_38_Verify_ScheduleTransferUsingCronExpression" duration-ms="63" started-at="2019-01-31T22:34:50Z" finished-at="2019-01-31T22:34:50Z">
+      <class name="in.v2solutions.hybrid.testcases.HLT_38_Verify_ScheduleTransferUsingCronExpression">
+        <test-method status="PASS" signature="beforeTest(java.lang.String)[pri:0, instance:in.v2solutions.hybrid.testcases.HLT_38_Verify_ScheduleTransferUsingCronExpression@36d585c]" name="beforeTest" is-config="true" duration-ms="0" started-at="2019-02-01T04:04:50Z" finished-at="2019-02-01T04:04:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[HULFT_bulid5667--All_Regression]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="SKIP" signature="verify_ScheduleTransferUsingCronExpression(java.util.Hashtable)[pri:0, instance:in.v2solutions.hybrid.testcases.HLT_38_Verify_ScheduleTransferUsingCronExpression@36d585c]" name="verify_ScheduleTransferUsingCronExpression" duration-ms="0" started-at="2019-02-01T04:04:50Z" data-provider="getTestData" finished-at="2019-02-01T04:04:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{RunMode=Y}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[This Test Script is Skipped as it's RunMode is Marked as NO]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: This Test Script is Skipped as it's RunMode is Marked as NO
+	at in.v2solutions.hybrid.testcases.HLT_38_Verify_ScheduleTransferUsingCronExpression.verify_ScheduleTransferUsingCronExpression(HLT_38_Verify_ScheduleTransferUsingCronExpression.java:52)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.TestNG.privateMain(TestNG.java:1442)
+	at org.testng.TestNG.main(TestNG.java:1411)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_ScheduleTransferUsingCronExpression -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:in.v2solutions.hybrid.testcases.HLT_38_Verify_ScheduleTransferUsingCronExpression@36d585c]" name="afterTest" is-config="true" duration-ms="63" started-at="2019-02-01T04:04:50Z" finished-at="2019-02-01T04:04:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- in.v2solutions.hybrid.testcases.HLT_38_Verify_ScheduleTransferUsingCronExpression -->
+    </test> <!-- HLT_38_Verify_ScheduleTransferUsingCronExpression -->
+    <test name="HLT_35_Verify_CaptureUserActions" duration-ms="78" started-at="2019-01-31T22:34:50Z" finished-at="2019-01-31T22:34:50Z">
+      <class name="in.v2solutions.hybrid.testcases.HLT_35_Verify_CaptureUserActions">
+        <test-method status="SKIP" signature="verify_CaptureUserActions(java.util.Hashtable)[pri:0, instance:in.v2solutions.hybrid.testcases.HLT_35_Verify_CaptureUserActions@1356d4d4]" name="verify_CaptureUserActions" duration-ms="15" started-at="2019-02-01T04:04:50Z" data-provider="getTestData" finished-at="2019-02-01T04:04:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{RunMode=Y}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[This Test Script is Skipped as it's RunMode is Marked as NO]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: This Test Script is Skipped as it's RunMode is Marked as NO
+	at in.v2solutions.hybrid.testcases.HLT_35_Verify_CaptureUserActions.verify_CaptureUserActions(HLT_35_Verify_CaptureUserActions.java:52)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.TestNG.privateMain(TestNG.java:1442)
+	at org.testng.TestNG.main(TestNG.java:1411)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_CaptureUserActions -->
+        <test-method status="PASS" signature="beforeTest(java.lang.String)[pri:0, instance:in.v2solutions.hybrid.testcases.HLT_35_Verify_CaptureUserActions@1356d4d4]" name="beforeTest" is-config="true" duration-ms="0" started-at="2019-02-01T04:04:50Z" finished-at="2019-02-01T04:04:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[HULFT_bulid5667--All_Regression]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:in.v2solutions.hybrid.testcases.HLT_35_Verify_CaptureUserActions@1356d4d4]" name="afterTest" is-config="true" duration-ms="63" started-at="2019-02-01T04:04:50Z" finished-at="2019-02-01T04:04:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- in.v2solutions.hybrid.testcases.HLT_35_Verify_CaptureUserActions -->
+    </test> <!-- HLT_35_Verify_CaptureUserActions -->
+    <test name="HLT_39_Verify_CreateNewSubJobTransfer" duration-ms="62" started-at="2019-01-31T22:34:50Z" finished-at="2019-01-31T22:34:50Z">
+      <class name="in.v2solutions.hybrid.testcases.HLT_39_Verify_CreateNewSubJobTransfer">
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:in.v2solutions.hybrid.testcases.HLT_39_Verify_CreateNewSubJobTransfer@1fb700ee]" name="afterTest" is-config="true" duration-ms="62" started-at="2019-02-01T04:04:50Z" finished-at="2019-02-01T04:04:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="beforeTest(java.lang.String)[pri:0, instance:in.v2solutions.hybrid.testcases.HLT_39_Verify_CreateNewSubJobTransfer@1fb700ee]" name="beforeTest" is-config="true" duration-ms="0" started-at="2019-02-01T04:04:50Z" finished-at="2019-02-01T04:04:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[HULFT_bulid5667--All_Regression]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="SKIP" signature="verify_CreateNewSubJobTransfer(java.util.Hashtable)[pri:0, instance:in.v2solutions.hybrid.testcases.HLT_39_Verify_CreateNewSubJobTransfer@1fb700ee]" name="verify_CreateNewSubJobTransfer" duration-ms="0" started-at="2019-02-01T04:04:50Z" data-provider="getTestData" finished-at="2019-02-01T04:04:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{RunMode=Y}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[This Test Script is Skipped as it's RunMode is Marked as NO]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: This Test Script is Skipped as it's RunMode is Marked as NO
+	at in.v2solutions.hybrid.testcases.HLT_39_Verify_CreateNewSubJobTransfer.verify_CreateNewSubJobTransfer(HLT_39_Verify_CreateNewSubJobTransfer.java:52)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.TestNG.privateMain(TestNG.java:1442)
+	at org.testng.TestNG.main(TestNG.java:1411)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_CreateNewSubJobTransfer -->
+      </class> <!-- in.v2solutions.hybrid.testcases.HLT_39_Verify_CreateNewSubJobTransfer -->
+    </test> <!-- HLT_39_Verify_CreateNewSubJobTransfer -->
+    <test name="HLT_41_Verify_SubJobTransferActions" duration-ms="78" started-at="2019-01-31T22:34:50Z" finished-at="2019-01-31T22:34:50Z">
+      <class name="in.v2solutions.hybrid.testcases.HLT_41_Verify_SubJobTransferActions">
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:in.v2solutions.hybrid.testcases.HLT_41_Verify_SubJobTransferActions@68e965f5]" name="afterTest" is-config="true" duration-ms="78" started-at="2019-02-01T04:04:50Z" finished-at="2019-02-01T04:04:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="SKIP" signature="verify_SubJobTransferActions(java.util.Hashtable)[pri:0, instance:in.v2solutions.hybrid.testcases.HLT_41_Verify_SubJobTransferActions@68e965f5]" name="verify_SubJobTransferActions" duration-ms="0" started-at="2019-02-01T04:04:50Z" data-provider="getTestData" finished-at="2019-02-01T04:04:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{RunMode=Y}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[This Test Script is Skipped as it's RunMode is Marked as NO]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: This Test Script is Skipped as it's RunMode is Marked as NO
+	at in.v2solutions.hybrid.testcases.HLT_41_Verify_SubJobTransferActions.verify_SubJobTransferActions(HLT_41_Verify_SubJobTransferActions.java:52)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.TestNG.privateMain(TestNG.java:1442)
+	at org.testng.TestNG.main(TestNG.java:1411)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_SubJobTransferActions -->
+        <test-method status="PASS" signature="beforeTest(java.lang.String)[pri:0, instance:in.v2solutions.hybrid.testcases.HLT_41_Verify_SubJobTransferActions@68e965f5]" name="beforeTest" is-config="true" duration-ms="0" started-at="2019-02-01T04:04:50Z" finished-at="2019-02-01T04:04:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[HULFT_bulid5667--All_Regression]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+      </class> <!-- in.v2solutions.hybrid.testcases.HLT_41_Verify_SubJobTransferActions -->
+    </test> <!-- HLT_41_Verify_SubJobTransferActions -->
+    <test name="HLT_42_Verify_KnowledgeBaseContactUsURLs" duration-ms="63" started-at="2019-01-31T22:34:50Z" finished-at="2019-01-31T22:34:50Z">
+      <class name="in.v2solutions.hybrid.testcases.HLT_42_Verify_KnowledgeBaseContactUsURLs">
+        <test-method status="SKIP" signature="verify_KnowledgeBaseContactUsURLs(java.util.Hashtable)[pri:0, instance:in.v2solutions.hybrid.testcases.HLT_42_Verify_KnowledgeBaseContactUsURLs@61d6015a]" name="verify_KnowledgeBaseContactUsURLs" duration-ms="0" started-at="2019-02-01T04:04:50Z" data-provider="getTestData" finished-at="2019-02-01T04:04:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{RunMode=Y}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[This Test Script is Skipped as it's RunMode is Marked as NO]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: This Test Script is Skipped as it's RunMode is Marked as NO
+	at in.v2solutions.hybrid.testcases.HLT_42_Verify_KnowledgeBaseContactUsURLs.verify_KnowledgeBaseContactUsURLs(HLT_42_Verify_KnowledgeBaseContactUsURLs.java:52)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.TestNG.privateMain(TestNG.java:1442)
+	at org.testng.TestNG.main(TestNG.java:1411)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_KnowledgeBaseContactUsURLs -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:in.v2solutions.hybrid.testcases.HLT_42_Verify_KnowledgeBaseContactUsURLs@61d6015a]" name="afterTest" is-config="true" duration-ms="63" started-at="2019-02-01T04:04:50Z" finished-at="2019-02-01T04:04:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="beforeTest(java.lang.String)[pri:0, instance:in.v2solutions.hybrid.testcases.HLT_42_Verify_KnowledgeBaseContactUsURLs@61d6015a]" name="beforeTest" is-config="true" duration-ms="0" started-at="2019-02-01T04:04:50Z" finished-at="2019-02-01T04:04:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[HULFT_bulid5667--All_Regression]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+      </class> <!-- in.v2solutions.hybrid.testcases.HLT_42_Verify_KnowledgeBaseContactUsURLs -->
+    </test> <!-- HLT_42_Verify_KnowledgeBaseContactUsURLs -->
+    <test name="HLT_43_Verify_ScheduleSubJobTransfer" duration-ms="62" started-at="2019-01-31T22:34:50Z" finished-at="2019-01-31T22:34:50Z">
+      <class name="in.v2solutions.hybrid.testcases.HLT_43_Verify_ScheduleSubJobTransfer">
+        <test-method status="PASS" signature="beforeTest(java.lang.String)[pri:0, instance:in.v2solutions.hybrid.testcases.HLT_43_Verify_ScheduleSubJobTransfer@37858383]" name="beforeTest" is-config="true" duration-ms="0" started-at="2019-02-01T04:04:50Z" finished-at="2019-02-01T04:04:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[HULFT_bulid5667--All_Regression]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:in.v2solutions.hybrid.testcases.HLT_43_Verify_ScheduleSubJobTransfer@37858383]" name="afterTest" is-config="true" duration-ms="62" started-at="2019-02-01T04:04:50Z" finished-at="2019-02-01T04:04:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="SKIP" signature="verify_ScheduleSubJobTransfer(java.util.Hashtable)[pri:0, instance:in.v2solutions.hybrid.testcases.HLT_43_Verify_ScheduleSubJobTransfer@37858383]" name="verify_ScheduleSubJobTransfer" duration-ms="0" started-at="2019-02-01T04:04:50Z" data-provider="getTestData" finished-at="2019-02-01T04:04:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{RunMode=Y}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[This Test Script is Skipped as it's RunMode is Marked as NO]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: This Test Script is Skipped as it's RunMode is Marked as NO
+	at in.v2solutions.hybrid.testcases.HLT_43_Verify_ScheduleSubJobTransfer.verify_ScheduleSubJobTransfer(HLT_43_Verify_ScheduleSubJobTransfer.java:52)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.TestNG.privateMain(TestNG.java:1442)
+	at org.testng.TestNG.main(TestNG.java:1411)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_ScheduleSubJobTransfer -->
+      </class> <!-- in.v2solutions.hybrid.testcases.HLT_43_Verify_ScheduleSubJobTransfer -->
+    </test> <!-- HLT_43_Verify_ScheduleSubJobTransfer -->
+    <test name="HLT_44_Verify_SubjobTransferActionSAnditShouldNotDisplayMigrateAction" duration-ms="63" started-at="2019-01-31T22:34:50Z" finished-at="2019-01-31T22:34:50Z">
+      <class name="in.v2solutions.hybrid.testcases.HLT_44_Verify_SubjobTransferActionSAnditShouldNotDisplayMigrateAction">
+        <test-method status="PASS" signature="beforeTest(java.lang.String)[pri:0, instance:in.v2solutions.hybrid.testcases.HLT_44_Verify_SubjobTransferActionSAnditShouldNotDisplayMigrateAction@e1de817]" name="beforeTest" is-config="true" duration-ms="0" started-at="2019-02-01T04:04:50Z" finished-at="2019-02-01T04:04:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[HULFT_bulid5667--All_Regression]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="SKIP" signature="verify_SubjobTransferActionSAnditShouldNotDisplayMigrateAction(java.util.Hashtable)[pri:0, instance:in.v2solutions.hybrid.testcases.HLT_44_Verify_SubjobTransferActionSAnditShouldNotDisplayMigrateAction@e1de817]" name="verify_SubjobTransferActionSAnditShouldNotDisplayMigrateAction" duration-ms="0" started-at="2019-02-01T04:04:50Z" data-provider="getTestData" finished-at="2019-02-01T04:04:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{RunMode=Y}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[This Test Script is Skipped as it's RunMode is Marked as NO]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: This Test Script is Skipped as it's RunMode is Marked as NO
+	at in.v2solutions.hybrid.testcases.HLT_44_Verify_SubjobTransferActionSAnditShouldNotDisplayMigrateAction.verify_SubjobTransferActionSAnditShouldNotDisplayMigrateAction(HLT_44_Verify_SubjobTransferActionSAnditShouldNotDisplayMigrateAction.java:52)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.TestNG.privateMain(TestNG.java:1442)
+	at org.testng.TestNG.main(TestNG.java:1411)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_SubjobTransferActionSAnditShouldNotDisplayMigrateAction -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:in.v2solutions.hybrid.testcases.HLT_44_Verify_SubjobTransferActionSAnditShouldNotDisplayMigrateAction@e1de817]" name="afterTest" is-config="true" duration-ms="63" started-at="2019-02-01T04:04:50Z" finished-at="2019-02-01T04:04:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- in.v2solutions.hybrid.testcases.HLT_44_Verify_SubjobTransferActionSAnditShouldNotDisplayMigrateAction -->
+    </test> <!-- HLT_44_Verify_SubjobTransferActionSAnditShouldNotDisplayMigrateAction -->
+    <test name="HLT_45_Verify_CreateSubJobWithEngineAndVerifyTransferLogs" duration-ms="62" started-at="2019-01-31T22:34:50Z" finished-at="2019-01-31T22:34:50Z">
+      <class name="in.v2solutions.hybrid.testcases.HLT_45_Verify_CreateSubJobWithEngineAndVerifyTransferLogs">
+        <test-method status="SKIP" signature="verify_CreateSubJobWithEngineAnd(java.util.Hashtable)[pri:0, instance:in.v2solutions.hybrid.testcases.HLT_45_Verify_CreateSubJobWithEngineAndVerifyTransferLogs@355ce81c]" name="verify_CreateSubJobWithEngineAnd" duration-ms="0" started-at="2019-02-01T04:04:50Z" data-provider="getTestData" finished-at="2019-02-01T04:04:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{RunMode=Y}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[This Test Script is Skipped as it's RunMode is Marked as NO]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: This Test Script is Skipped as it's RunMode is Marked as NO
+	at in.v2solutions.hybrid.testcases.HLT_45_Verify_CreateSubJobWithEngineAndVerifyTransferLogs.verify_CreateSubJobWithEngineAnd(HLT_45_Verify_CreateSubJobWithEngineAndVerifyTransferLogs.java:52)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.TestNG.privateMain(TestNG.java:1442)
+	at org.testng.TestNG.main(TestNG.java:1411)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_CreateSubJobWithEngineAnd -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:in.v2solutions.hybrid.testcases.HLT_45_Verify_CreateSubJobWithEngineAndVerifyTransferLogs@355ce81c]" name="afterTest" is-config="true" duration-ms="62" started-at="2019-02-01T04:04:50Z" finished-at="2019-02-01T04:04:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="beforeTest(java.lang.String)[pri:0, instance:in.v2solutions.hybrid.testcases.HLT_45_Verify_CreateSubJobWithEngineAndVerifyTransferLogs@355ce81c]" name="beforeTest" is-config="true" duration-ms="0" started-at="2019-02-01T04:04:50Z" finished-at="2019-02-01T04:04:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[HULFT_bulid5667--All_Regression]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+      </class> <!-- in.v2solutions.hybrid.testcases.HLT_45_Verify_CreateSubJobWithEngineAndVerifyTransferLogs -->
+    </test> <!-- HLT_45_Verify_CreateSubJobWithEngineAndVerifyTransferLogs -->
+    <test name="HLT_46_Verify_CreateNewTransferWithFTPSProtocolAndItsActions" duration-ms="62" started-at="2019-01-31T22:34:50Z" finished-at="2019-01-31T22:34:50Z">
+      <class name="in.v2solutions.hybrid.testcases.HLT_46_Verify_CreateNewTransferWithFTPSProtocolAndItsActions">
+        <test-method status="SKIP" signature="verify_CreateNewTransferWithFTPSProtocolAndItsActions(java.util.Hashtable)[pri:0, instance:in.v2solutions.hybrid.testcases.HLT_46_Verify_CreateNewTransferWithFTPSProtocolAndItsActions@366647c2]" name="verify_CreateNewTransferWithFTPSProtocolAndItsActions" duration-ms="0" started-at="2019-02-01T04:04:50Z" data-provider="getTestData" finished-at="2019-02-01T04:04:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{RunMode=Y}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[This Test Script is Skipped as it's RunMode is Marked as NO]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: This Test Script is Skipped as it's RunMode is Marked as NO
+	at in.v2solutions.hybrid.testcases.HLT_46_Verify_CreateNewTransferWithFTPSProtocolAndItsActions.verify_CreateNewTransferWithFTPSProtocolAndItsActions(HLT_46_Verify_CreateNewTransferWithFTPSProtocolAndItsActions.java:52)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.TestNG.privateMain(TestNG.java:1442)
+	at org.testng.TestNG.main(TestNG.java:1411)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_CreateNewTransferWithFTPSProtocolAndItsActions -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:in.v2solutions.hybrid.testcases.HLT_46_Verify_CreateNewTransferWithFTPSProtocolAndItsActions@366647c2]" name="afterTest" is-config="true" duration-ms="62" started-at="2019-02-01T04:04:50Z" finished-at="2019-02-01T04:04:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="beforeTest(java.lang.String)[pri:0, instance:in.v2solutions.hybrid.testcases.HLT_46_Verify_CreateNewTransferWithFTPSProtocolAndItsActions@366647c2]" name="beforeTest" is-config="true" duration-ms="0" started-at="2019-02-01T04:04:50Z" finished-at="2019-02-01T04:04:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[HULFT_bulid5667--All_Regression]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+      </class> <!-- in.v2solutions.hybrid.testcases.HLT_46_Verify_CreateNewTransferWithFTPSProtocolAndItsActions -->
+    </test> <!-- HLT_46_Verify_CreateNewTransferWithFTPSProtocolAndItsActions -->
+    <test name="HLT_47_Verify_CreateMultipleSubjobsAndVerifyStatus" duration-ms="63" started-at="2019-01-31T22:34:50Z" finished-at="2019-01-31T22:34:50Z">
+      <class name="in.v2solutions.hybrid.testcases.HLT_47_Verify_CreateMultipleSubjobsAndVerifyStatus">
+        <test-method status="SKIP" signature="verify_CreateMultipleSubjobsAnd(java.util.Hashtable)[pri:0, instance:in.v2solutions.hybrid.testcases.HLT_47_Verify_CreateMultipleSubjobsAndVerifyStatus@503d687a]" name="verify_CreateMultipleSubjobsAnd" duration-ms="0" started-at="2019-02-01T04:04:50Z" data-provider="getTestData" finished-at="2019-02-01T04:04:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{RunMode=Y}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[This Test Script is Skipped as it's RunMode is Marked as NO]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: This Test Script is Skipped as it's RunMode is Marked as NO
+	at in.v2solutions.hybrid.testcases.HLT_47_Verify_CreateMultipleSubjobsAndVerifyStatus.verify_CreateMultipleSubjobsAnd(HLT_47_Verify_CreateMultipleSubjobsAndVerifyStatus.java:52)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.TestNG.privateMain(TestNG.java:1442)
+	at org.testng.TestNG.main(TestNG.java:1411)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_CreateMultipleSubjobsAnd -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:in.v2solutions.hybrid.testcases.HLT_47_Verify_CreateMultipleSubjobsAndVerifyStatus@503d687a]" name="afterTest" is-config="true" duration-ms="63" started-at="2019-02-01T04:04:50Z" finished-at="2019-02-01T04:04:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="beforeTest(java.lang.String)[pri:0, instance:in.v2solutions.hybrid.testcases.HLT_47_Verify_CreateMultipleSubjobsAndVerifyStatus@503d687a]" name="beforeTest" is-config="true" duration-ms="0" started-at="2019-02-01T04:04:50Z" finished-at="2019-02-01T04:04:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[HULFT_bulid5667--All_Regression]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+      </class> <!-- in.v2solutions.hybrid.testcases.HLT_47_Verify_CreateMultipleSubjobsAndVerifyStatus -->
+    </test> <!-- HLT_47_Verify_CreateMultipleSubjobsAndVerifyStatus -->
+    <test name="HLT_50_Verify_KeyCompatabilityWhileCreatingTransfer" duration-ms="63" started-at="2019-01-31T22:34:50Z" finished-at="2019-01-31T22:34:50Z">
+      <class name="in.v2solutions.hybrid.testcases.HLT_50_Verify_KeyCompatabilityWhileCreatingTransfer">
+        <test-method status="SKIP" signature="verify_KeyCompatabilityWhileCreatingTransfer(java.util.Hashtable)[pri:0, instance:in.v2solutions.hybrid.testcases.HLT_50_Verify_KeyCompatabilityWhileCreatingTransfer@1f97cf0d]" name="verify_KeyCompatabilityWhileCreatingTransfer" duration-ms="0" started-at="2019-02-01T04:04:50Z" data-provider="getTestData" finished-at="2019-02-01T04:04:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{RunMode=Y}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[This Test Script is Skipped as it's RunMode is Marked as NO]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: This Test Script is Skipped as it's RunMode is Marked as NO
+	at in.v2solutions.hybrid.testcases.HLT_50_Verify_KeyCompatabilityWhileCreatingTransfer.verify_KeyCompatabilityWhileCreatingTransfer(HLT_50_Verify_KeyCompatabilityWhileCreatingTransfer.java:52)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.TestNG.privateMain(TestNG.java:1442)
+	at org.testng.TestNG.main(TestNG.java:1411)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_KeyCompatabilityWhileCreatingTransfer -->
+        <test-method status="PASS" signature="beforeTest(java.lang.String)[pri:0, instance:in.v2solutions.hybrid.testcases.HLT_50_Verify_KeyCompatabilityWhileCreatingTransfer@1f97cf0d]" name="beforeTest" is-config="true" duration-ms="0" started-at="2019-02-01T04:04:50Z" finished-at="2019-02-01T04:04:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[HULFT_bulid5667--All_Regression]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:in.v2solutions.hybrid.testcases.HLT_50_Verify_KeyCompatabilityWhileCreatingTransfer@1f97cf0d]" name="afterTest" is-config="true" duration-ms="63" started-at="2019-02-01T04:04:50Z" finished-at="2019-02-01T04:04:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- in.v2solutions.hybrid.testcases.HLT_50_Verify_KeyCompatabilityWhileCreatingTransfer -->
+    </test> <!-- HLT_50_Verify_KeyCompatabilityWhileCreatingTransfer -->
+    <test name="HLT_51_Verify_CreateViewEditDeleteDataForApplicationsModule" duration-ms="62" started-at="2019-01-31T22:34:50Z" finished-at="2019-01-31T22:34:51Z">
+      <class name="in.v2solutions.hybrid.testcases.HLT_51_Verify_CreateViewEditDeleteDataForApplicationsModule">
+        <test-method status="PASS" signature="beforeTest(java.lang.String)[pri:0, instance:in.v2solutions.hybrid.testcases.HLT_51_Verify_CreateViewEditDeleteDataForApplicationsModule@2e222612]" name="beforeTest" is-config="true" duration-ms="0" started-at="2019-02-01T04:04:50Z" finished-at="2019-02-01T04:04:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[HULFT_bulid5667--All_Regression]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="SKIP" signature="verify_CreateViewEditDeleteDataForApplicationsModule(java.util.Hashtable)[pri:0, instance:in.v2solutions.hybrid.testcases.HLT_51_Verify_CreateViewEditDeleteDataForApplicationsModule@2e222612]" name="verify_CreateViewEditDeleteDataForApplicationsModule" duration-ms="0" started-at="2019-02-01T04:04:50Z" data-provider="getTestData" finished-at="2019-02-01T04:04:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{RunMode=Y}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[This Test Script is Skipped as it's RunMode is Marked as NO]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: This Test Script is Skipped as it's RunMode is Marked as NO
+	at in.v2solutions.hybrid.testcases.HLT_51_Verify_CreateViewEditDeleteDataForApplicationsModule.verify_CreateViewEditDeleteDataForApplicationsModule(HLT_51_Verify_CreateViewEditDeleteDataForApplicationsModule.java:52)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.TestNG.privateMain(TestNG.java:1442)
+	at org.testng.TestNG.main(TestNG.java:1411)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_CreateViewEditDeleteDataForApplicationsModule -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:in.v2solutions.hybrid.testcases.HLT_51_Verify_CreateViewEditDeleteDataForApplicationsModule@2e222612]" name="afterTest" is-config="true" duration-ms="62" started-at="2019-02-01T04:04:50Z" finished-at="2019-02-01T04:04:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- in.v2solutions.hybrid.testcases.HLT_51_Verify_CreateViewEditDeleteDataForApplicationsModule -->
+    </test> <!-- HLT_51_Verify_CreateViewEditDeleteDataForApplicationsModule -->
+  </suite> <!-- Regression -->
+</testng-results>

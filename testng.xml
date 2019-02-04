@@ -1,0 +1,204 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Regression">
+<parameter name="Suite-Name" value="HULFT_bulid5667--All_Regression"/>
+<test name="HLT_00_Verify_TestData">
+<classes>
+<class name="in.v2solutions.hybrid.testcases.HLT_00_Verify_TestData"></class>
+</classes>
+</test>
+<test name="HLT_01_Verify_AddViewEditSearchAndDeleteFunctionalitiesForNewUser">
+<classes>
+<class name="in.v2solutions.hybrid.testcases.HLT_01_Verify_AddViewEditSearchAndDeleteFunctionalitiesForNewUser"></class>
+</classes>
+</test>
+<test name="HLT_02_Verify_AddViewEditSearchAndDeleteFunctionalitiesForCredentials">
+<classes>
+<class name="in.v2solutions.hybrid.testcases.HLT_02_Verify_AddViewEditSearchAndDeleteFunctionalitiesForCredentials"></class>
+</classes>
+</test>
+<test name="HLT_03_Verify_AddViewEditSearchAndDeleteFunctionalitiesForUserGroups">
+<classes>
+<class name="in.v2solutions.hybrid.testcases.HLT_03_Verify_AddViewEditSearchAndDeleteFunctionalitiesForUserGroups"></class>
+</classes>
+</test>
+<test name="HLT_04_Verify_HostActionsFunctionality">
+<classes>
+<class name="in.v2solutions.hybrid.testcases.HLT_04_Verify_HostActionsFunctionality"></class>
+</classes>
+</test>
+<test name="HLT_05_Verify_AddViewEditSearchExportAndDeleteFunctionalitiesForTransferReports">
+<classes>
+<class name="in.v2solutions.hybrid.testcases.HLT_05_Verify_AddViewEditSearchExportAndDeleteFunctionalitiesForTransferReports"></class>
+</classes>
+</test>
+<test name="HLT_06_Verify_AddViewEditSearchAndDeleteFunctionalitiesForHostReports">
+<classes>
+<class name="in.v2solutions.hybrid.testcases.HLT_06_Verify_AddViewEditSearchAndDeleteFunctionalitiesForHostReports"></class>
+</classes>
+</test>
+<test name="HLT_07_Verify_AddViewEditSearchAndDeleteFunctionalitiesForSystemStatusReports">
+<classes>
+<class name="in.v2solutions.hybrid.testcases.HLT_07_Verify_AddViewEditSearchAndDeleteFunctionalitiesForSystemStatusReports"></class>
+</classes>
+</test>
+<test name="HLT_08_Verify_AddViewEditSearchAndDeleteFunctionalitiesForUserReports">
+<classes>
+<class name="in.v2solutions.hybrid.testcases.HLT_08_Verify_AddViewEditSearchAndDeleteFunctionalitiesForUserReports"></class>
+</classes>
+</test>
+<test name="HLT_09_Verify_SearchDetails_TransferHistory">
+<classes>
+<class name="in.v2solutions.hybrid.testcases.HLT_09_Verify_SearchDetails_TransferHistory"></class>
+</classes>
+</test>
+<test name="HLT_11_Verify_ManageTransferActions">
+<classes>
+<class name="in.v2solutions.hybrid.testcases.HLT_11_Verify_ManageTransferActions"></class>
+</classes>
+</test>
+<test name="HLT_12_Verify_SearchDetails_ManageTransfers">
+<classes>
+<class name="in.v2solutions.hybrid.testcases.HLT_12_Verify_SearchDetails_ManageTransfers"></class>
+</classes>
+</test>
+<test name="HLT_15_Verify_AddExternalHostTransfer">
+<classes>
+<class name="in.v2solutions.hybrid.testcases.HLT_15_Verify_AddExternalHostTransfer"></class>
+</classes>
+</test>
+<test name="HLT_16_Verify_SearchOperationForDatabaseListAndArchiveLogs">
+<classes>
+<class name="in.v2solutions.hybrid.testcases.HLT_16_Verify_SearchOperationForDatabaseListAndArchiveLogs"></class>
+</classes>
+</test>
+<test name="HLT_17_Verify_AdministratorRolePermissions">
+<classes>
+<class name="in.v2solutions.hybrid.testcases.HLT_17_Verify_AdministratorRolePermissions"></class>
+</classes>
+</test>
+<test name="HLT_18_Verify_UserRolePermissions">
+<classes>
+<class name="in.v2solutions.hybrid.testcases.HLT_18_Verify_UserRolePermissions"></class>
+</classes>
+</test>
+<test name="HLT_19_Verify_SuperuserRolePermissions">
+<classes>
+<class name="in.v2solutions.hybrid.testcases.HLT_19_Verify_SuperuserRolePermissions"></class>
+</classes>
+</test>
+<test name="HLT_21_Verify_ScheduleTransfer">
+<classes>
+<class name="in.v2solutions.hybrid.testcases.HLT_21_Verify_ScheduleTransfer"></class>
+</classes>
+</test>
+<test name="HLT_22_Verify_ProfileActions">
+<classes>
+<class name="in.v2solutions.hybrid.testcases.HLT_22_Verify_ProfileActions"></class>
+</classes>
+</test>
+<test name="HLT_23_Verify_ProductsLicenses">
+<classes>
+<class name="in.v2solutions.hybrid.testcases.HLT_23_Verify_ProductsLicenses"></class>
+</classes>
+</test>
+<test name="HLT_28_Verify_SelectUnselectSFTPServeronHosts">
+<classes>
+<class name="in.v2solutions.hybrid.testcases.HLT_28_Verify_SelectUnselectSFTPServeronHosts"></class>
+</classes>
+</test>
+<test name="HLT_29_Verify_SFTPTransfer">
+<classes>
+<class name="in.v2solutions.hybrid.testcases.HLT_29_Verify_SFTPTransfer"></class>
+</classes>
+</test>
+<test name="HLT_31_Verify_ProductsLicensesInsatllations">
+<classes>
+<class name="in.v2solutions.hybrid.testcases.HLT_31_Verify_ProductsLicensesInsatllations"></class>
+</classes>
+</test>
+<test name="HLT_32_Verify_GlobalSearchDeatilsTransferHistory">
+<classes>
+<class name="in.v2solutions.hybrid.testcases.HLT_32_Verify_GlobalSearchDeatilsTransferHistory"></class>
+</classes>
+</test>
+<test name="HLT_33_Verify_MetaDatafileForTransfers">
+<classes>
+<class name="in.v2solutions.hybrid.testcases.HLT_33_Verify_MetaDatafileForTransfers"></class>
+</classes>
+</test>
+<test name="HLT_34_Verify_SearchFunctionalityWorksForUserActions">
+<classes>
+<class name="in.v2solutions.hybrid.testcases.HLT_34_Verify_SearchFunctionalityWorksForUserActions"></class>
+</classes>
+</test>
+<test name="HLT_36_Verify_SystemNotifications">
+<classes>
+<class name="in.v2solutions.hybrid.testcases.HLT_36_Verify_SystemNotifications"></class>
+</classes>
+</test>
+<test name="HLT_37_Verify_AssignUnassignHostToExternalUserAndVerifyDeleteAction">
+<classes>
+<class name="in.v2solutions.hybrid.testcases.HLT_37_Verify_AssignUnassignHostToExternalUserAndVerifyDeleteAction"></class>
+</classes>
+</test>
+<test name="HLT_38_Verify_ScheduleTransferUsingCronExpression">
+<classes>
+<class name="in.v2solutions.hybrid.testcases.HLT_38_Verify_ScheduleTransferUsingCronExpression"></class>
+</classes>
+</test>
+<test name="HLT_35_Verify_CaptureUserActions">
+<classes>
+<class name="in.v2solutions.hybrid.testcases.HLT_35_Verify_CaptureUserActions"></class>
+</classes>
+</test>
+<test name="HLT_39_Verify_CreateNewSubJobTransfer">
+<classes>
+<class name="in.v2solutions.hybrid.testcases.HLT_39_Verify_CreateNewSubJobTransfer"></class>
+</classes>
+</test>
+<test name="HLT_41_Verify_SubJobTransferActions">
+<classes>
+<class name="in.v2solutions.hybrid.testcases.HLT_41_Verify_SubJobTransferActions"></class>
+</classes>
+</test>
+<test name="HLT_42_Verify_KnowledgeBaseContactUsURLs">
+<classes>
+<class name="in.v2solutions.hybrid.testcases.HLT_42_Verify_KnowledgeBaseContactUsURLs"></class>
+</classes>
+</test>
+<test name="HLT_43_Verify_ScheduleSubJobTransfer">
+<classes>
+<class name="in.v2solutions.hybrid.testcases.HLT_43_Verify_ScheduleSubJobTransfer"></class>
+</classes>
+</test>
+<test name="HLT_44_Verify_SubjobTransferActionSAnditShouldNotDisplayMigrateAction">
+<classes>
+<class name="in.v2solutions.hybrid.testcases.HLT_44_Verify_SubjobTransferActionSAnditShouldNotDisplayMigrateAction"></class>
+</classes>
+</test>
+<test name="HLT_45_Verify_CreateSubJobWithEngineAndVerifyTransferLogs">
+<classes>
+<class name="in.v2solutions.hybrid.testcases.HLT_45_Verify_CreateSubJobWithEngineAndVerifyTransferLogs"></class>
+</classes>
+</test>
+<test name="HLT_46_Verify_CreateNewTransferWithFTPSProtocolAndItsActions">
+<classes>
+<class name="in.v2solutions.hybrid.testcases.HLT_46_Verify_CreateNewTransferWithFTPSProtocolAndItsActions"></class>
+</classes>
+</test>
+<test name="HLT_47_Verify_CreateMultipleSubjobsAndVerifyStatus">
+<classes>
+<class name="in.v2solutions.hybrid.testcases.HLT_47_Verify_CreateMultipleSubjobsAndVerifyStatus"></class>
+</classes>
+</test>
+<test name="HLT_50_Verify_KeyCompatabilityWhileCreatingTransfer">
+<classes>
+<class name="in.v2solutions.hybrid.testcases.HLT_50_Verify_KeyCompatabilityWhileCreatingTransfer"></class>
+</classes>
+</test>
+<test name="HLT_51_Verify_CreateViewEditDeleteDataForApplicationsModule">
+<classes>
+<class name="in.v2solutions.hybrid.testcases.HLT_51_Verify_CreateViewEditDeleteDataForApplicationsModule"></class>
+</classes>
+</test>
+</suite>
